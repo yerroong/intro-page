@@ -47,7 +47,7 @@ export default function Header() {
               <div className="relative group mb-4">
                 <div className="w-40 h-52 relative rounded-lg overflow-hidden border-2 border-gray-200 shadow-lg group-hover:scale-105 transition-transform duration-300">
                   <Image
-                    src="/profile.png"
+                    src="/intro-page/profile.png"
                     alt="Profile picture of Yerin Kim"
                     width={160}
                     height={208}
