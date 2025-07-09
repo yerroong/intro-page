@@ -5,6 +5,7 @@ import Image from "next/image"
 import { ExternalLink } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import ProjectModal from "./project-modal"
+import { BASE_PATH } from "@/lib/path";  
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<any>(null)
@@ -18,11 +19,11 @@ export default function Projects() {
       detailedDescription:
         "프로메테우스 해커톤에서 개발한 AI 기반 편집 웹 서비스입니다. 사용자가 업로드한 롱폼 영상을 AI가 분석하여 자동으로 하이라이트를 추출하고 숏폼 영상으로 변환해주는 플랫폼입니다. React와 Python을 활용하여 프론트엔드와 AI 모델을 연동했습니다. 프론트엔드 파트를 맡아 제작했지만 현재 깃허브 사이트는 비공개 상태입니다.",
       url: "https://github.com/infoelectric/test.git",
-      image: "/intro-page/쇼티1.png?height=200&width=350",
+      image: "/쇼티1.png?height=200&width=350",
       images: [
-        "/intro-page/쇼티1.png?height=400&width=600",
-        "/intro-page/쇼티2.png?height=400&width=600",
-        "/intro-page/쇼티3.png?height=400&width=600",
+        "/쇼티1.png?height=400&width=600",
+        "/쇼티2.png?height=400&width=600",
+        "/쇼티3.png?height=400&width=600",
       ],
       technologies: ["React", "Python", "AI/ML", "Video Processing"],
       color: "from-purple-400 to-purple-600",
@@ -34,12 +35,12 @@ export default function Projects() {
       detailedDescription:
         "멋쟁이사자처럼 인하해커톤, 백준 오답노트 SOLVER는 코딩 공부를 더욱 효율적으로 할 수 있도록 설계된 웹사이트입니다. 틀린 문제를 복습하고, 다른 사람의 풀이를 검색 및 공유할 수 있는 기능을 제공합니다.",
       url: "https://github.com/yerroong/inha_likelion_hackathon4.git",
-      image: "/intro-page/백준1.png?height=300&width=350",
+      image: "/백준1.png?height=300&width=350",
       images: [
-        "/intro-page/백준1.png?height=400&width=600",
-        "/intro-page/백준2.png?height=400&width=600",
-        "/intro-page/백준3.png?height=400&width=600",
-        "/intro-page/백준4.png?height=400&width=600",
+        "/백준1.png?height=400&width=600",
+        "/백준2.png?height=400&width=600",
+        "/백준3.png?height=400&width=600",
+        "/백준4.png?height=400&width=600",
       ],
       technologies: ["React", "JavaScript", "CSS", "HTML"],
       color: "from-green-400 to-green-600",
@@ -53,13 +54,13 @@ export default function Projects() {
       url: "https://github.com/yerroong/Reverseinha_team_front.git",
       githubUrl: "https://github.com/yerroong/Reverseinha_team_front.git",
       liveUrl: "https://reverseinha.github.io/Reverseinha_team_front",
-      image: "/intro-page/with1.png?height=200&width=350",
+      image: "/with1.png?height=200&width=350",
       images: [
-        "/intro-page/with1.png?height=400&width=600",
-        "/intro-page/with2.png?height=400&width=600",
-        "/intro-page/with3.png?height=400&width=600",
-        "/intro-page/with4.png?height=400&width=600",
-        "/intro-page/with5.png?height=400&width=600",
+        "/with1.png?height=400&width=600",
+        "/with2.png?height=400&width=600",
+        "/with3.png?height=400&width=600",
+        "/with4.png?height=400&width=600",
+        "/with5.png?height=400&width=600",
       ],
       technologies: ["React", "JavaScript","Node.js", "MongoDB"],
       color: "from-pink-400 to-pink-600",
@@ -73,12 +74,12 @@ export default function Projects() {
       url: "https://github.com/yerroong/2024innosafe",
       githubUrl: "https://github.com/yerroong/2024innosafe",
       notionUrl: "https://www.notion.so/yerin1412/2024-12b389b3e039807f86b3d1fef0e89e98",
-      image: "/intro-page/maker1.png?height=200&width=350",
+      image: "/maker1.png?height=200&width=350",
       images: [
-        "/intro-page/maker1.png?height=400&width=600",
-        "/intro-page/maker2.png?height=400&width=600",
-        "/intro-page/maker3.png?height=400&width=600",
-        "/intro-page/maker4.png?height=400&width=600",
+        "/maker1.png?height=400&width=600",
+        "/maker2.png?height=400&width=600",
+        "/maker3.png?height=400&width=600",
+        "/maker4.png?height=400&width=600",
       ],
       technologies: ["React", "Arduino", "IoT", "Firebase"],
       color: "from-red-400 to-red-600",
@@ -92,13 +93,13 @@ export default function Projects() {
       url: "https://makourse.my/",
       githubUrl: "https://github.com/yerroong/makourse",
       liveUrl: "https://makourse.my/",
-      image: "/intro-page/makourse1.png?height=850&width=350",
+      image: "/makourse1.png?height=850&width=350",
       images: [
-        "/intro-page/makourse1.png?height=850&width=350",
-        "/intro-page/makourse2.png?height=850&width=350",
-        "/intro-page/makourse3.png?height=850&width=350",
-        "/intro-page/makourse4.png?height=850&width=350",
-        "/intro-page/makourse5.png?height=850&width=350",
+        "/makourse1.png?height=850&width=350",
+        "/makourse2.png?height=850&width=350",
+        "/makourse3.png?height=850&width=350",
+        "/makourse4.png?height=850&width=350",
+        "/makourse5.png?height=850&width=350",
       ],
       technologies: ["Vue.js", "Express.js", "MySQL", "WebSocket"],
       color: "from-teal-400 to-teal-600",
@@ -112,9 +113,9 @@ export default function Projects() {
         "HackDoc은 Upstage의 문서 파싱 및 정보 추출 기능을 활용해, 초보 개발자가 기술 문서를 더 쉽고 빠르게 이해하고 활용할 수 있도록 돕는 AI 도우미입니다. devfolio 사이트에서 시연 영상과 디테일한 내용을 확인할 수 있습니다.",
       githubUrl: "https://github.com/yerroong/BuildAI_Hackathon",
       devfolioUrl: "https://devfolio.co/projects/hack-doc-8415",
-      image: "/intro-page/HackDoc.png?height=200&width=350",
+      image: "/HackDoc.png?height=200&width=350",
       images: [
-        "/intro-page/HackDoc.png?height=200&width=350",
+        "/HackDoc.png?height=200&width=350",
       ],
       technologies: ["TypeScript", "Python", "Upstage API"],
       color: "from-yellow-400 to-yellow-600",
@@ -126,12 +127,12 @@ export default function Projects() {
         "인천시 국제협력국 다문화사회과'에 3000만원을 진행하며 현재 개발 중. 25년 9월 완성 목표",
       detailedDescription:
         "인하대학교 지역상생 아이디어 후속 프로젝트인 ‘인솔루션 프로젝트’입니다. 지역상생 아이디어 총장상을 받은 아이디어를 현실화하는 작업입니다. ‘인천시 국제협력국 다문화사회과’에 예산을 지원받아 총 7명의 인하대 학생(기획2명, 프론트2명, 백엔드2명, 디자이너1명)이 함께하며, 최종적으로 <With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱을 개발하여 외국인이 산재 보험을 편리하게 신청할 수 있도록 하는 것을 목표로 합니다. 9월까지 개발 마무리를 할 예정입니다.",
-      image: "/intro-page/within4.jpg?height=850&width=400",
+      image: "/within4.jpg?height=850&width=400",
       images: [
-        "/intro-page/within1.jpg?height=850&width=400",
-        "/intro-page/within2.jpg?height=850&width=400",
-        "/intro-page/within3.jpg?height=850&width=400",
-        "/intro-page/within4.jpg?height=850&width=400",
+        "/within1.jpg?height=850&width=400",
+        "/within2.jpg?height=850&width=400",
+        "/within3.jpg?height=850&width=400",
+        "/within4.jpg?height=850&width=400",
       ],
       technologies: ["React", "TypeScript", "Vite", "zustand"],
       color: "from-indigo-400 to-indigo-600",
@@ -140,14 +141,19 @@ export default function Projects() {
   ]
 
   const openModal = (project: any) => {
-    setSelectedProject(project)
-    setIsModalOpen(true)
-  }
+    const withPrefix = {
+      ...project,
+      image: BASE_PATH + project.image,
+      images: project.images?.map((img: string) => BASE_PATH + img),
+    };
+    setSelectedProject(withPrefix);
+    setIsModalOpen(true);
+  };
 
   const closeModal = () => {
-    setIsModalOpen(false)
-    setSelectedProject(null)
-  }
+    setIsModalOpen(false);
+    setSelectedProject(null);
+  };
 
   return (
     <>
@@ -155,17 +161,21 @@ export default function Projects() {
         {projects.map((project, index) => (
           <Card
             key={index}
-            className="group overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-105 border-0 bg-white cursor-pointer"
             onClick={() => openModal(project)}
+            className="group overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-105 border-0 bg-white cursor-pointer"
           >
-            <div className={`relative overflow-hidden ${project.isMobileApp ? "h-64" : "h-56"}`}>
+            <div
+              className={`relative overflow-hidden ${
+                project.isMobileApp ? "h-64" : "h-56"
+              }`}
+            >
               <div
                 className={`absolute inset-0 bg-gradient-to-r ${project.color} opacity-20 group-hover:opacity-40 transition-opacity duration-300`}
               />
               {project.isMobileApp ? (
                 <div className="w-full h-full bg-gray-200 flex items-center justify-center">
                   <Image
-                    src={project.image || "/intro-page/placeholder.svg"}
+                    src={`${BASE_PATH}${project.image}` || `${BASE_PATH}/placeholder.svg`}
                     alt={project.title}
                     width={400}
                     height={850}
@@ -174,7 +184,7 @@ export default function Projects() {
                 </div>
               ) : (
                 <Image
-                  src={project.image || "/intro-page/placeholder.svg"}
+                  src={`${BASE_PATH}${project.image}` || `${BASE_PATH}/placeholder.svg`}
                   alt={project.title}
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"

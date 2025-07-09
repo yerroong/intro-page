@@ -11,8 +11,14 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 fontSize=%2290%22>🐶</text></svg>",
+        url: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><text x=%2232%22 y=%2240%22 fontSize=%2256%22 textAnchor=%22middle%22>🦄</text></svg>",
         type: "image/svg+xml",
+        sizes: "32x32",
+      },
+      {
+        url: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><text x=%2232%22 y=%2240%22 fontSize=%2256%22 textAnchor=%22middle%22>🦄</text></svg>",
+        type: "image/svg+xml",
+        sizes: "16x16",
       },
     ],
   },
@@ -25,6 +31,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" className="scroll-smooth">
+      <head>
+        <link
+          rel="icon"
+          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><text x=%2232%22 y=%2240%22 fontSize=%2256%22 textAnchor=%22middle%22>🦄</text></svg>"
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )

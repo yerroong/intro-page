@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { ChevronDown } from "lucide-react"
+import { BASE_PATH } from "@/lib/path" 
 
 export default function Header() {
   const [displayText, setDisplayText] = useState("")
@@ -47,7 +48,7 @@ export default function Header() {
               <div className="relative group mb-4">
                 <div className="w-40 h-52 relative rounded-lg overflow-hidden border-2 border-gray-200 shadow-lg group-hover:scale-105 transition-transform duration-300">
                   <Image
-                    src="/intro-page/profile.png"
+                    src={`${BASE_PATH}/profile.png`}
                     alt="Profile picture of Yerin Kim"
                     width={160}
                     height={208}
