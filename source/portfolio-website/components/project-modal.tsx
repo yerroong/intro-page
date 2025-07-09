@@ -16,11 +16,24 @@ interface ProjectModalProps {
     detailedDescription: string
     images: string[]
     technologies: string[]
+    isMobileApp?: boolean
   }
 }
 
 export default function ProjectModal({ isOpen, onClose, project }: ProjectModalProps) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
+
+  useEffect(() => {
+    if (!isOpen || project.images.length <= 1) return
+
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % project.images.length)
+    }, 3000) // 3초마다 자동 전환
+
+    return () => clearInterval(interval)
+  }, [isOpen, project.images.length])
+
+  if (!isOpen) return null
 
   const nextImage = () => {
     setCurrentImageIndex((prev) => (prev + 1) % project.images.length)
@@ -34,6 +47,7 @@ export default function ProjectModal({ isOpen, onClose, project }: ProjectModalP
     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
       <Card className="w-full max-w-4xl max-h-[90vh] overflow-hidden">
         <CardContent className="p-0 max-h-[90vh] overflow-y-auto">
+          {/* Header */}
           <div className="sticky top-0 z-10 bg-white flex justify-between items-center p-6 border-b">
             <div>
               <h2 className="text-2xl font-bold text-gray-800">{project.title}</h2>
@@ -44,13 +58,16 @@ export default function ProjectModal({ isOpen, onClose, project }: ProjectModalP
             </Button>
           </div>
 
+          {/* Image Gallery */}
           <div className="relative">
-            <div className="aspect-video relative overflow-hidden">
+            <div
+              className={`relative overflow-hidden ${project.isMobileApp ? "aspect-[4/8.5] bg-gray-200" : "aspect-video"}`}
+            >
               <Image
                 src={project.images[currentImageIndex] || "/placeholder.svg"}
                 alt={`${project.title} screenshot ${currentImageIndex + 1}`}
                 fill
-                className="object-cover"
+                className={project.isMobileApp ? "object-contain" : "object-cover"}
               />
             </div>
 

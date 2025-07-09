@@ -92,17 +92,17 @@ export default function Projects() {
       url: "https://makourse.my/",
       githubUrl: "https://github.com/yerroong/makourse",
       liveUrl: "https://makourse.my/",
-      image: "/makourse1.png?height=200&width=350",
+      image: "/makourse1.png?height=850&width=350",
       images: [
-        "/makourse1.png?height=400&width=600",
-        "/makourse2.png?height=400&width=600",
-        "/makourse3.png?height=400&width=600",
-        "/makourse4.png?height=400&width=600",
-        "/makourse5.png?height=400&width=600",
-        "/makourse6.png?height=400&width=600",
+        "/makourse1.png?height=850&width=350",
+        "/makourse2.png?height=850&width=350",
+        "/makourse3.png?height=850&width=350",
+        "/makourse4.png?height=850&width=350",
+        "/makourse5.png?height=850&width=350",
       ],
       technologies: ["Vue.js", "Express.js", "MySQL", "WebSocket"],
       color: "from-teal-400 to-teal-600",
+      isMobileApp: true,
     },
     {
       title: "HackDoc",
@@ -123,10 +123,10 @@ export default function Projects() {
       title: "<With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱",
       year: "2025",
       description:
-        "인하대학교 지역상생 아이디어 후속 프로젝트인 '인솔루션 프로젝트'. '인천시 국제협력국 다문화사회과'에 3000만원 예산을 지원받아 진행하며 현재 개발 중. 25년 9월 중 완성 목표",
+        "인천시 국제협력국 다문화사회과'에 3000만원을 진행하며 현재 개발 중. 25년 9월 완성 목표",
       detailedDescription:
-        "인천시 외국인 근로자들을 위한 산재 보험 가이드라인 모바일 애플리케이션입니다. 다국어 지원을 통해 언어 장벽을 해소하고, 복잡한 산재 보험 절차를 쉽게 이해할 수 있도록 시각적 가이드를 제공합니다. 실제 공공기관과 협력하여 진행하는 사회적 가치가 높은 프로젝트입니다.",
-      image: "/placeholder.svg?height=200&width=350",
+        "인하대학교 지역상생 아이디어 후속 프로젝트인 ‘인솔루션 프로젝트’입니다. 지역상생 아이디어 총장상을 받은 아이디어를 현실화하는 작업입니다. ‘인천시 국제협력국 다문화사회과’에 예산을 지원받아 총 7명의 인하대 학생(기획2명, 프론트2명, 백엔드2명, 디자이너1명)이 함께하며, 최종적으로 <With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱을 개발하여 외국인이 산재 보험을 편리하게 신청할 수 있도록 하는 것을 목표로 합니다. 9월까지 개발 마무리를 할 예정입니다.",
+      image: "/placeholder.svg?height=850&width=400",
       images: [
         "/placeholder.svg?height=400&width=600",
         "/placeholder.svg?height=400&width=600",
@@ -134,10 +134,11 @@ export default function Projects() {
       ],
       technologies: ["React", "TypeScript", "Vite", "zustand"],
       color: "from-indigo-400 to-indigo-600",
+      isMobileApp: true,
     },
   ]
 
-   const openModal = (project: any) => {
+  const openModal = (project: any) => {
     setSelectedProject(project)
     setIsModalOpen(true)
   }
@@ -156,16 +157,30 @@ export default function Projects() {
             className="group overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-105 border-0 bg-white cursor-pointer"
             onClick={() => openModal(project)}
           >
-            <div className="relative h-56 overflow-hidden">
+            <div className={`relative overflow-hidden ${project.isMobileApp ? "h-64" : "h-56"}`}>
               <div
                 className={`absolute inset-0 bg-gradient-to-r ${project.color} opacity-20 group-hover:opacity-40 transition-opacity duration-300`}
               />
-              <Image
-                src={project.image || "/placeholder.svg"}
-                alt={project.title}
-                fill
-                className="object-cover group-hover:scale-110 transition-transform duration-500"
-              />
+              {project.isMobileApp ? (
+                // 모바일 앱 스크린샷용 (400x850 비율)
+                <div className="w-full h-full bg-gray-200 flex items-center justify-center">
+                  <Image
+                    src={project.image || "/placeholder.svg"}
+                    alt={project.title}
+                    width={400}
+                    height={850}
+                    className="object-contain max-h-full max-w-full group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+              ) : (
+                // 일반 웹사이트 스크린샷용
+                <Image
+                  src={project.image || "/placeholder.svg"}
+                  alt={project.title}
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              )}
               <div className="absolute top-4 right-4 bg-white/90 px-2 py-1 rounded-full text-sm font-medium text-gray-700">
                 {project.year}
               </div>
