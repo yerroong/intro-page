@@ -1,6 +1,5 @@
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
-import { BASE_PATH } from '@/lib/path'
 
 export default function AboutCombined() {
   const interests = [
@@ -65,8 +64,8 @@ export default function AboutCombined() {
             {/* Center floating image */}
             <div className="relative">
               <div className="w-48 h-48 relative animate-float">
-                <img
-                  src={`${BASE_PATH}/yerin.png`}
+                <Image
+                  src="/yerin.png?height=200&width=200"
                   alt="Floating illustration"
                   width={200}
                   height={200}
