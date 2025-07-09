@@ -5,7 +5,6 @@ import Image from "next/image"
 import { ExternalLink } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import ProjectModal from "./project-modal"
-import { BASE_PATH } from "@/lib/path";  
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<any>(null)
@@ -143,8 +142,6 @@ export default function Projects() {
   const openModal = (project: any) => {
     const withPrefix = {
       ...project,
-      image: BASE_PATH + project.image,
-      images: project.images?.map((img: string) => BASE_PATH + img),
     };
     setSelectedProject(withPrefix);
     setIsModalOpen(true);
@@ -175,7 +172,7 @@ export default function Projects() {
               {project.isMobileApp ? (
                 <div className="w-full h-full bg-gray-200 flex items-center justify-center">
                   <Image
-                    src={`${BASE_PATH}${project.image}` || `${BASE_PATH}/placeholder.svg`}
+                    src={project.image ||"/placeholder.svg"}
                     alt={project.title}
                     width={400}
                     height={850}
@@ -184,7 +181,7 @@ export default function Projects() {
                 </div>
               ) : (
                 <Image
-                  src={`${BASE_PATH}${project.image}` || `${BASE_PATH}/placeholder.svg`}
+                  src={project.image || "/placeholder.svg"}
                   alt={project.title}
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
