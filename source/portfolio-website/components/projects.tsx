@@ -58,6 +58,8 @@ export default function Projects() {
         "/with1.png?height=400&width=600",
         "/with2.png?height=400&width=600",
         "/with3.png?height=400&width=600",
+        "/with4.png?height=400&width=600",
+        "/with5.png?height=400&width=600",
       ],
       technologies: ["React", "JavaScript","Node.js", "MongoDB"],
       color: "from-pink-400 to-pink-600",
@@ -67,13 +69,16 @@ export default function Projects() {
       year: "2024",
       description: "인하대 이노씽크 메이커톤/ 가스 및 화재 안전 관리를 위한 통합 안전 사이트",
       detailedDescription:
-        "IoT 센서와 연동된 실시간 가스 및 화재 감지 시스템입니다. 센서 데이터를 실시간으로 모니터링하고, 위험 상황 발생 시 즉시 알림을 전송하며, 대응 매뉴얼을 제공합니다. 하드웨어와 소프트웨어를 통합한 종합적인 안전 관리 솔루션입니다.",
+        "IoT 센서와 연동된 실시간 가스 및 화재 감지 시스템입니다. 센서 데이터를 실시간으로 모니터링하고, 위험 상황 발생 시 즉시 알림을 전송하며, 대응 매뉴얼을 제공합니다. 하드웨어와 소프트웨어를 통합한 종합적인 안전 관리 솔루션입니다. 직접 주거 모형을 제작하여 센서가 사이트에서 실제로 잘 동작하나 확인도 완료하였습니다.",
       url: "https://github.com/yerroong/2024innosafe",
-      image: "/placeholder.svg?height=200&width=350",
+      githubUrl: "https://github.com/yerroong/2024innosafe",
+      notionUrl: "https://www.notion.so/yerin1412/2024-12b389b3e039807f86b3d1fef0e89e98",
+      image: "/maker1.png?height=200&width=350",
       images: [
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
+        "/maker1.png?height=400&width=600",
+        "/maker2.png?height=400&width=600",
+        "/maker3.png?height=400&width=600",
+        "/maker4.png?height=400&width=600",
       ],
       technologies: ["React", "Arduino", "IoT", "Firebase"],
       color: "from-red-400 to-red-600",
@@ -83,13 +88,18 @@ export default function Projects() {
       year: "2025",
       description: "일정 공유를 위한 애플리케이션 제작 프로젝트 메이코스 (vue.js)",
       detailedDescription:
-        "팀 프로젝트나 스터디 그룹에서 일정을 효율적으로 공유하고 관리할 수 있는 웹 애플리케이션입니다. Vue.js를 활용하여 반응형 인터페이스를 구현했으며, 실시간 동기화와 알림 기능을 통해 사용자 편의성을 극대화했습니다.",
+        "출시를 목표로 3개월간 진행한 팀 프로젝트입니다(완성 완료 했지만 배포 X, 디자이너1, 프론트3, 백2). 메이코스 서비스는 개인간의 계획성 약속의 확실함을 제공해주고자 합니다. 약속을 짜고 구성하는데에 불편함을 해결해주는 어플리케이션입니다. 서비스 이름은 make + course(일정 코스, 데이트 코스할 때의 코스) Vue.js를 활용하여 반응형 인터페이스를 구현했으며, 주요 기능은 일행과 같이 약속 계획 짜기가 가능하며 특정 장소 및 계획에 시간설정/메모/대안 설정이 가능합니다.",
       url: "https://makourse.my/",
-      image: "/placeholder.svg?height=200&width=350",
+      githubUrl: "https://github.com/yerroong/makourse",
+      liveUrl: "https://makourse.my/",
+      image: "/makourse1.png?height=200&width=350",
       images: [
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
+        "/makourse1.png?height=400&width=600",
+        "/makourse2.png?height=400&width=600",
+        "/makourse3.png?height=400&width=600",
+        "/makourse4.png?height=400&width=600",
+        "/makourse5.png?height=400&width=600",
+        "/makourse6.png?height=400&width=600",
       ],
       technologies: ["Vue.js", "Express.js", "MySQL", "WebSocket"],
       color: "from-teal-400 to-teal-600",
@@ -99,13 +109,12 @@ export default function Projects() {
       year: "2025",
       description: "Build AI 2025 Upstage 트랙 3등 수상",
       detailedDescription:
-        "의료진을 위한 AI 기반 진료 보조 시스템입니다. 환자의 증상과 의료 기록을 분석하여 진단을 보조하고, 치료 방향을 제안하는 혁신적인 헬스케어 솔루션입니다. Upstage의 AI 모델을 활용하여 높은 정확도의 의료 정보 분석을 구현했습니다.",
-      url: "#",
-      image: "/placeholder.svg?height=200&width=350",
+        "HackDoc은 Upstage의 문서 파싱 및 정보 추출 기능을 활용해, 초보 개발자가 기술 문서를 더 쉽고 빠르게 이해하고 활용할 수 있도록 돕는 AI 도우미입니다. devfolio 사이트에서 시연 영상과 디테일한 내용을 확인할 수 있습니다.",
+      githubUrl: "https://github.com/yerroong/BuildAI_Hackathon",
+      devfolioUrl: "https://devfolio.co/projects/hack-doc-8415",
+      image: "/HackDoc.png?height=200&width=350",
       images: [
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
+        "/HackDoc.png?height=200&width=350",
       ],
       technologies: ["TypeScript", "Python", "Upstage API"],
       color: "from-yellow-400 to-yellow-600",
@@ -117,7 +126,6 @@ export default function Projects() {
         "인하대학교 지역상생 아이디어 후속 프로젝트인 '인솔루션 프로젝트'. '인천시 국제협력국 다문화사회과'에 3000만원 예산을 지원받아 진행하며 현재 개발 중. 25년 9월 중 완성 목표",
       detailedDescription:
         "인천시 외국인 근로자들을 위한 산재 보험 가이드라인 모바일 애플리케이션입니다. 다국어 지원을 통해 언어 장벽을 해소하고, 복잡한 산재 보험 절차를 쉽게 이해할 수 있도록 시각적 가이드를 제공합니다. 실제 공공기관과 협력하여 진행하는 사회적 가치가 높은 프로젝트입니다.",
-      url: "#",
       image: "/placeholder.svg?height=200&width=350",
       images: [
         "/placeholder.svg?height=400&width=600",
@@ -129,7 +137,7 @@ export default function Projects() {
     },
   ]
 
- const openModal = (project: any) => {
+   const openModal = (project: any) => {
     setSelectedProject(project)
     setIsModalOpen(true)
   }
@@ -168,7 +176,7 @@ export default function Projects() {
               </h3>
               <p className="text-gray-600 mb-4 text-sm line-clamp-3">{project.description}</p>
 
-              {/* 두 개의 버튼이 있는 프로젝트 (With, Makourse) */}
+              {/* With, Makourse - GitHub + Live Demo */}
               {project.githubUrl && project.liveUrl ? (
                 <div className="flex gap-2 flex-wrap">
                   <a
@@ -192,8 +200,54 @@ export default function Projects() {
                     <ExternalLink className="h-4 w-4" />
                   </a>
                 </div>
+              ) : /* 가스/화재 안전 시스템 - GitHub + Notion */ project.githubUrl && project.notionUrl ? (
+                <div className="flex gap-2 flex-wrap">
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-3 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-sm"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <span className="mr-2">GitHub</span>
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                  <a
+                    href={project.notionUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-3 py-2 bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-sm"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <span className="mr-2">Notion</span>
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                </div>
+              ) : /* HackDoc - GitHub + Devfolio */ project.githubUrl && project.devfolioUrl ? (
+                <div className="flex gap-2 flex-wrap">
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-3 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-sm"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <span className="mr-2">GitHub</span>
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                  <a
+                    href={project.devfolioUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-3 py-2 bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-sm"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <span className="mr-2">Devfolio</span>
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                </div>
               ) : (
-                /* 단일 버튼 */
+                /* 나머지 프로젝트들 - GitHub Link만 */
                 <a
                   href={project.url}
                   target="_blank"
