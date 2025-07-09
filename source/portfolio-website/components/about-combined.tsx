@@ -65,7 +65,7 @@ export default function AboutCombined() {
             <div className="relative">
               <div className="w-48 h-48 relative animate-float">
                 <Image
-                  src="/yerin.png?height=200&width=200"
+                  src="/yerin.png"
                   alt="Floating illustration"
                   width={200}
                   height={200}
