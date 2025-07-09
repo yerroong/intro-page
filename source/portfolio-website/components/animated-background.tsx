@@ -13,7 +13,6 @@ export default function AnimatedBackground() {
 
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden">
-      {/* Geometric lines */}
       <div className="absolute inset-0">
         <svg className="w-full h-full opacity-10" viewBox="0 0 1000 1000">
           <defs>
@@ -48,7 +47,6 @@ export default function AnimatedBackground() {
         </svg>
       </div>
 
-      {/* Subtle gradient shapes */}
       <div
         className="absolute top-20 right-20 w-32 h-32 bg-gradient-to-br from-blue-200/20 to-transparent rounded-full blur-xl animate-pulse"
         style={{ animationDuration: "4s" }}
@@ -58,7 +56,6 @@ export default function AnimatedBackground() {
         style={{ animationDuration: "6s", animationDelay: "2s" }}
       />
 
-      {/* Floating dots with purpose */}
       <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-blue-400/40 rounded-full animate-ping" />
       <div
         className="absolute top-3/4 right-1/3 w-1.5 h-1.5 bg-purple-400/40 rounded-full animate-ping"
@@ -69,7 +66,6 @@ export default function AnimatedBackground() {
         style={{ animationDelay: "2s" }}
       />
 
-      {/* Grid pattern overlay */}
       <div
         className="absolute inset-0 opacity-5"
         style={{
