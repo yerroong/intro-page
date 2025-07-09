@@ -126,11 +126,12 @@ export default function Projects() {
         "인천시 국제협력국 다문화사회과'에 3000만원을 진행하며 현재 개발 중. 25년 9월 완성 목표",
       detailedDescription:
         "인하대학교 지역상생 아이디어 후속 프로젝트인 ‘인솔루션 프로젝트’입니다. 지역상생 아이디어 총장상을 받은 아이디어를 현실화하는 작업입니다. ‘인천시 국제협력국 다문화사회과’에 예산을 지원받아 총 7명의 인하대 학생(기획2명, 프론트2명, 백엔드2명, 디자이너1명)이 함께하며, 최종적으로 <With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱을 개발하여 외국인이 산재 보험을 편리하게 신청할 수 있도록 하는 것을 목표로 합니다. 9월까지 개발 마무리를 할 예정입니다.",
-      image: "/placeholder.svg?height=850&width=400",
+      image: "/within4.jpg?height=850&width=400",
       images: [
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
-        "/placeholder.svg?height=400&width=600",
+        "/within1.jpg?height=850&width=400",
+        "/within2.jpg?height=850&width=400",
+        "/within3.jpg?height=850&width=400",
+        "/within4.jpg?height=850&width=400",
       ],
       technologies: ["React", "TypeScript", "Vite", "zustand"],
       color: "from-indigo-400 to-indigo-600",
@@ -162,7 +163,6 @@ export default function Projects() {
                 className={`absolute inset-0 bg-gradient-to-r ${project.color} opacity-20 group-hover:opacity-40 transition-opacity duration-300`}
               />
               {project.isMobileApp ? (
-                // 모바일 앱 스크린샷용 (400x850 비율)
                 <div className="w-full h-full bg-gray-200 flex items-center justify-center">
                   <Image
                     src={project.image || "/placeholder.svg"}
@@ -173,7 +173,6 @@ export default function Projects() {
                   />
                 </div>
               ) : (
-                // 일반 웹사이트 스크린샷용
                 <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
@@ -191,7 +190,6 @@ export default function Projects() {
               </h3>
               <p className="text-gray-600 mb-4 text-sm line-clamp-3">{project.description}</p>
 
-              {/* With, Makourse - GitHub + Live Demo */}
               {project.githubUrl && project.liveUrl ? (
                 <div className="flex gap-2 flex-wrap">
                   <a
@@ -215,7 +213,7 @@ export default function Projects() {
                     <ExternalLink className="h-4 w-4" />
                   </a>
                 </div>
-              ) : /* 가스/화재 안전 시스템 - GitHub + Notion */ project.githubUrl && project.notionUrl ? (
+              ) : project.githubUrl && project.notionUrl ? (
                 <div className="flex gap-2 flex-wrap">
                   <a
                     href={project.githubUrl}
@@ -238,7 +236,7 @@ export default function Projects() {
                     <ExternalLink className="h-4 w-4" />
                   </a>
                 </div>
-              ) : /* HackDoc - GitHub + Devfolio */ project.githubUrl && project.devfolioUrl ? (
+              ) :  project.githubUrl && project.devfolioUrl ? (
                 <div className="flex gap-2 flex-wrap">
                   <a
                     href={project.githubUrl}
@@ -262,7 +260,6 @@ export default function Projects() {
                   </a>
                 </div>
               ) : (
-                /* 나머지 프로젝트들 - GitHub Link만 */
                 <a
                   href={project.url}
                   target="_blank"
