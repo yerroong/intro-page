@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[336],{5642:(_,n,u)=>{"use strict";u.r(n),u.d(n,{default:()=>r});var e=u(7876);function r(){return(0,e.jsx)("h1",{children:"404 - 페이지를 찾을 수 없습니다."})}},7396:(_,n,u)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/404",function(){return u(5642)}])}},_=>{var n=n=>_(_.s=n);_.O(0,[636,593,792],()=>n(7396)),_N_E=_.O()}]);
