@@ -9,7 +9,7 @@ export default function Header() {
   const [displayText, setDisplayText] = useState("")
   const [showScrollIndicator, setShowScrollIndicator] = useState(true)
   const fullText =
-    "안녕하세요! 성장해가고 있는 개발자 김예린입니다. 현재 프론트엔드 파트 중점으로 각종 프로젝트 및 해커톤을 진행하는 등 프론트엔드 웹 개발자로 성장하고 있습니다."
+    "안녕하세요! 성장해가고 있는 개발자 김예린입니다. 프론트엔드 파트 중점으로 각종 프로젝트 및 해커톤을 진행하였으며 현재 LG U+ 유레카 부트캠프에 참여하며 프론트 뿐만 아니라 백엔드, UI/UX 설계, 보안까지 기본 지식을 갖춘 등 IT 인재로 성장하고 있습니다."
 
   useEffect(() => {
     let index = 0

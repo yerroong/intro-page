@@ -16,9 +16,9 @@ export default function AboutCombined() {
           <div className="space-y-8">
             <div className="text-center">
               <p className="text-lg leading-relaxed text-gray-700">
-                김예린은 프론트엔드 개발자가 되는 것을 목표로 하고 있으며,
+                  프론트엔드 개발자에서 멈추지 않고 IT 인재로 개발자가 되는 것을 목표로 하고 있으며,
                 <br />
-                <span className="font-bold text-blue-600"> 각종 해커톤 및 프로젝트와 대외활동(AI/CV 학부연구생)</span>을 통해 소프트웨어 능력을 향상시키고 있습니다.
+                <span className="font-bold text-blue-600"> 각종 해커톤 및 프로젝트와 대외활동(멋쟁이사자처럼, AI/CV 학부연구생, LG U+ 유레카)</span>을 통해 소프트웨어 능력을 향상시키고 있습니다.
               </p>
             </div>
 
@@ -38,7 +38,7 @@ export default function AboutCombined() {
 
             <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-6 rounded-xl">
               <h3 className="text-xl font-bold mb-4 text-center text-gray-800">사용가능한 툴 & 언어</h3>
-              <p className="text-center text-gray-700">React, HTML/CSS, JavaScript, TypeScript, GitHub, Figma, C++ <br />PowerPoint, Excel, Word 등 기본적인 오피스 프로그램을 능숙하게 다룰 수 있습니다.</p>
+              <p className="text-center text-gray-700">React, HTML/CSS, JavaScript, TypeScript, GitHub, Figma, C++, Notion, SQL <br />PowerPoint, Excel, Word 등 기본적인 오피스 프로그램을 능숙하게 다룰 수 있습니다.</p>
             </div>
 
             <div className="text-center">
