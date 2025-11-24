@@ -34,7 +34,7 @@ export default function Projects() {
       role: "(팀장)프론트엔드 / UIUX디자인 / 기획", 
       description: "멋쟁이사자처럼 인하대 해커톤. 백준 풀이를 위한 오답노트 사이트",
       detailedDescription:
-        "멋쟁이사자처럼 인하해커톤, 백준 오답노트 SOLVER는 코딩 공부를 더욱 효율적으로 할 수 있도록 설계된 웹사이트입니다. 틀린 문제를 복습하고, 다른 사람의 풀이를 검색 및 공유할 수 있는 기능을 제공합니다. 멋쟁이사자처럼 첫 해커톤인 만큼 창의성보다는 RESTful API 기반으로 프론트엔드와 백엔드의 협업에 심의를 기울였습니다.",
+        "멋쟁이사자처럼 인하해커톤, 백준 오답노트 SOLVER는 코딩 공부를 더욱 효율적으로 할 수 있도록 설계된 웹사이트입니다. 총 5명(프론트3, 백엔드2)의 팀원과 진행했습니다. 틀린 문제를 복습하고, 다른 사람의 풀이를 검색 및 공유할 수 있는 기능을 제공합니다. 멋쟁이사자처럼 첫 해커톤인 만큼 창의성보다는 RESTful API 기반으로 프론트엔드와 백엔드의 협업에 심의를 기울였습니다.",
       url: "https://github.com/yerroong/inha_likelion_hackathon4.git",
       image: "/백준1.png",
       images: [
@@ -52,7 +52,7 @@ export default function Projects() {
       role: "(팀장)프론트엔드 / UI&UX디자인 / 기획", 
       description: "멋쟁이사자처럼 중앙 해커톤. 사회적 고립청년을 위한 커뮤니티 사이트",
       detailedDescription:
-        "멋쟁이사자처럼 중앙 해커톤에 제출한 프로젝트입니다. 사회적 고립을 겪고 있는 청년들을 위한 온라인 커뮤니티 플랫폼입니다. 익명성을 보장하면서도 안전한 소통 공간을 제공하며, 전문가 상담, 그룹 활동, 멘토링 프로그램 등을 통해 사회 복귀를 지원합니다. 사용자 경험을 중시한 UI/UX 디자인에 특히 신경을 썼습니다.",
+        "멋쟁이사자처럼 중앙 해커톤에 제출한 프로젝트입니다. 총 5명(프론트3, 백엔드2)의 팀원과 진행했습니다. 사회적 고립을 겪고 있는 청년들을 위한 온라인 커뮤니티 플랫폼입니다. 익명성을 보장하면서도 안전한 소통 공간을 제공하며, 전문가 상담, 그룹 활동, 멘토링 프로그램 등을 통해 사회 복귀를 지원합니다. 사용자 경험을 중시한 UI/UX 디자인에 특히 신경을 썼습니다.",
       url: "https://github.com/yerroong/Reverseinha_team_front.git",
       githubUrl: "https://github.com/yerroong/Reverseinha_team_front.git",
       liveUrl: "https://reverseinha.github.io/Reverseinha_team_front",
@@ -70,10 +70,10 @@ export default function Projects() {
     {
       title: "가스/화재 안전 통합 시스템",
       year: "2024",
-      role: "프론트엔드 / UI&UX디자인", 
+      role: "프론트엔드 / UI&UX디자인 / 기획", 
       description: "인하대 이노씽크 메이커톤/ 가스 및 화재 안전 관리를 위한 통합 안전 사이트",
       detailedDescription:
-        "IoT 센서와 연동된 실시간 가스 및 화재 감지 시스템입니다. 센서 데이터를 실시간으로 모니터링하고, 위험 상황 발생 시 즉시 알림을 전송하며, 대응 매뉴얼을 제공합니다. 하드웨어와 소프트웨어를 통합한 종합적인 안전 관리 솔루션입니다. 직접 주거 모형을 제작하여 센서가 사이트에서 실제로 잘 동작하나 확인도 완료하였으며 본선 진출하였습니다.",
+        "IoT 센서와 연동된 실시간 가스 및 화재 감지 시스템입니다. 총 5명의 팀원(프론트1, 백엔드3, 총괄1, 디자인1)로 진행했으며 센서 데이터를 실시간으로 모니터링하고, 위험 상황 발생 시 즉시 알림을 전송하며, 대응 매뉴얼을 제공합니다. 하드웨어와 소프트웨어를 통합한 종합적인 안전 관리 솔루션입니다. 직접 주거 모형을 제작하여 센서가 사이트에서 실제로 잘 동작하나 확인도 완료하였으며 본선 진출하였습니다.",
       url: "https://github.com/yerroong/2024innosafe",
       githubUrl: "https://github.com/yerroong/2024innosafe",
       notionUrl: "https://www.notion.so/yerin1412/2024-12b389b3e039807f86b3d1fef0e89e98",
@@ -91,10 +91,9 @@ export default function Projects() {
       title: "Makourse",
       year: "2025",
       role: "프론트엔드", 
-      team: "총 6명: 프론트 3, 백엔드 2, 디자인 1",
       description: "일정 공유를 위한 애플리케이션 제작 프로젝트 메이코스",
       detailedDescription:
-        "출시를 목표로 3개월간 진행한 팀 프로젝트입니다(실제 출시 X, 현재 백엔드 서버 닫혀있음). 메이코스 서비스는 개인간의 계획성 약속의 확실함을 제공해주고자 합니다. 약속을 짜고 구성하는데에 불편함을 해결해주는 어플리케이션입니다. 서비스 이름은 make + course(일정 코스, 데이트 코스할 때의 코스) Vue.js를 활용하여 반응형 인터페이스를 구현했으며, 주요 기능은 일행과 같이 약속 계획 짜기가 가능하며 특정 장소 및 계획에 시간설정/메모/대안 설정이 가능합니다.",
+        "출시를 목표로 3개월간 진행한 팀 프로젝트입니다(실제 출시 X, 현재 백엔드 서버 닫혀있음). 총 6명(프론트3, 백엔드2, 디자이너1)에서 진행했으며, 메이코스 서비스는 개인간의 계획성 약속의 확실함을 제공해주고자 합니다. 약속 날짜와 장소를 짜고 구성하는데에 불편함을 해결해주는 어플리케이션입니다. 서비스 이름은 make + course(일정 코스, 데이트 코스할 때의 코스)로 React를 활용하여 반응형 인터페이스를 구현했으며, 주요 기능은 일행과 같이 약속 계획 짜기가 가능하며 특정 장소 및 계획에 시간설정/메모/대안 설정이 가능합니다.",
       url: "https://makourse.my/",
       githubUrl: "https://github.com/yerroong/makourse",
       liveUrl: "https://makourse.my/",
@@ -114,10 +113,9 @@ export default function Projects() {
       title: "HackDoc",
       year: "2025",
       role: "프론트엔드", 
-      team: "총 5명: 기획 3, 프론트 1, 백엔드/AI 1",
       description: "Build AI 2025 Upstage 트랙 3등 수상",
       detailedDescription:
-        "HackDoc은 Upstage의 문서 파싱 및 정보 추출 기능을 활용해, 초보 개발자가 기술 문서를 더 쉽고 빠르게 이해하고 활용할 수 있도록 돕는 AI 도우미입니다. devfolio 사이트에서 시연 영상과 디테일한 내용을 확인할 수 있습니다.",
+        "HackDoc은 Upstage의 문서 파싱 및 정보 추출 기능을 활용해, 초보 개발자가 기술 문서를 더 쉽고 빠르게 이해하고 활용할 수 있도록 돕는 AI 도우미입니다. 총 5명(기획3, 프론트1, 백엔드1)에서 2박 3일로 진행했으며, 트랙 3등을 수상했습니다. devfolio 사이트에서 시연 영상과 디테일한 내용을 확인할 수 있습니다.",
       githubUrl: "https://github.com/yerroong/BuildAI_Hackathon",
       devfolioUrl: "https://devfolio.co/projects/hack-doc-8415",
       image: "/HackDoc.png",
@@ -131,11 +129,10 @@ export default function Projects() {
       title: "<With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱",
       year: "2025",
       role: "프론트엔드", 
-      team: "총 7명: 기획 2, 프론트 2, 백엔드 2, 디자인 1",
       description:
         "인천시 국제협력국 다문화사회과'에 3000만원을 받아 진행하며 현재 베타테스트 중. 26.1 출시 목표",
       detailedDescription:
-        "인하대학교 지역상생 아이디어 후속 프로젝트인 ‘인솔루션 프로젝트’입니다. 지역상생 아이디어 총장상을 받은 아이디어를 현실화하는 작업입니다. ‘인천시 국제협력국 다문화사회과’에 예산을 지원받아 총 7명의 인하대 학생이 함께하며, 최종적으로 <With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱을 개발하여 외국인이 산재 보험을 편리하게 신청할 수 있도록 하는 것을 목표로 합니다. 5~8월  기획 및 예산 선정 과정을 거쳐 9~12월 개발중이며 26년 1월 정식 출시 계획입니다.",
+        "인하대학교 지역상생 아이디어 후속 프로젝트인 ‘인솔루션 프로젝트’입니다. 지역상생 아이디어 총장상을 받은 아이디어를 현실화하는 작업입니다. ‘인천시 국제협력국 다문화사회과’에 예산을 지원받아 총 7명(기획 2, 프론트 2, 백엔드 2, 디자인 1)의 인하대 학생이 함께하며, 최종적으로 <With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱을 개발하여 외국인이 산재 보험을 편리하게 신청할 수 있도록 하는 것을 목표로 합니다. 5~8월  기획 및 예산 선정 과정을 거쳐 9~12월 개발중이며 26년 1월 정식 출시 계획입니다.",
       url:  "https://github.com/WithIN-Incheon/WithIN-FE",
       image: "/within4.jpg",
       images: [
@@ -208,9 +205,6 @@ export default function Projects() {
               </h3>
               <p className="text-sm font-bold text-gray-800 mb-1">
                 담당 역할: <span className="font-medium">{project.role}</span>
-              </p>
-              <p className="text-sm text-gray-700 mb-3">
-                팀 구성: {project.team}
               </p>
               <p className="text-gray-600 mb-4 text-sm line-clamp-3">{project.description}</p>
 
