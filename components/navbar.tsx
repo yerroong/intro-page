@@ -14,8 +14,8 @@ export default function Navbar() {
 
   const menuItems = [
     { name: "About", href: "#about" },
+    { name: "History", href: "#awards" },
     { name: "Projects", href: "#projects" },
-    { name: "Awards", href: "#awards" },
     { name: "Certifications", href: "#certifications" },
   ]
 
