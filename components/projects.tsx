@@ -91,7 +91,7 @@ export default function Projects() {
       title: "Makourse",
       year: "2025",
       role: "프론트엔드", 
-      description: "일정 공유를 위한 애플리케이션 제작 프로젝트 메이코스",
+      description: "(백 서버 닫음)일정 공유를 위한 애플리케이션 제작 프로젝트 메이코스",
       detailedDescription:
         "출시를 목표로 3개월간 진행한 팀 프로젝트입니다(실제 출시 X, 현재 백엔드 서버 닫혀있음). 총 6명(프론트3, 백엔드2, 디자이너1)에서 진행했으며, 메이코스 서비스는 개인간의 계획성 약속의 확실함을 제공해주고자 합니다. 약속 날짜와 장소를 짜고 구성하는데에 불편함을 해결해주는 어플리케이션입니다. 서비스 이름은 make + course(일정 코스, 데이트 코스할 때의 코스)로 React를 활용하여 반응형 인터페이스를 구현했으며, 주요 기능은 일행과 같이 약속 계획 짜기가 가능하며 특정 장소 및 계획에 시간설정/메모/대안 설정이 가능합니다.",
       url: "https://makourse.my/",
@@ -128,12 +128,14 @@ export default function Projects() {
     {
       title: "<With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱",
       year: "2025",
-      role: "프론트엔드", 
+      role: "(개발팀장)프론트엔드", 
       description:
-        "인천시 국제협력국 다문화사회과'에 3000만원을 받아 진행하며 현재 베타테스트 중. 26.1 출시 목표",
+        "(베타테스트ing)인천시 국제협력국 다문화사회과'에 3000만원을 받아 진행하며 현재 베타테스트 중. 26.1 출시 목표",
       detailedDescription:
         "인하대학교 지역상생 아이디어 후속 프로젝트인 ‘인솔루션 프로젝트’입니다. 지역상생 아이디어 총장상을 받은 아이디어를 현실화하는 작업입니다. ‘인천시 국제협력국 다문화사회과’에 예산을 지원받아 총 7명(기획 2, 프론트 2, 백엔드 2, 디자인 1)의 인하대 학생이 함께하며, 최종적으로 <With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱을 개발하여 외국인이 산재 보험을 편리하게 신청할 수 있도록 하는 것을 목표로 합니다. 5~8월  기획 및 예산 선정 과정을 거쳐 9~12월 개발중이며 26년 1월 정식 출시 계획입니다.",
       url:  "https://github.com/WithIN-Incheon/WithIN-FE",
+      githubUrl: "https://github.com/WithIN-Incheon/WithIN-FE",
+      liveUrl: "https://www.iscfr-iaga.com/",
       image: "/within4.jpg",
       images: [
         "/within1.jpg",
