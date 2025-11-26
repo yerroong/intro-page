@@ -74,7 +74,7 @@ export default function Header() {
       </Card>
 
       {showScrollIndicator && (
-        <div className="absolute bottom-[-10px]left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-[-10px] left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="flex flex-col items-center text-gray-500">
             <span className="text-sm mb-2">Scroll Down</span>
             <ChevronDown className="h-6 w-6" />
