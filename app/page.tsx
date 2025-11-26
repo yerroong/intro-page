@@ -30,13 +30,6 @@ export default function Home() {
           <AboutCombined />
         </section>
 
-        <section id="projects" className="py-16">
-          <div className="text-center mb-8">
-            <h2 className="text-4xl font-bold text-gray-800">Projects</h2>
-          </div>
-          <Projects />
-        </section>
-
         <section id="awards" className="py-16">
           <div className="text-center mb-8">
             <h2 className="text-4xl font-bold text-gray-800">Awards & Activities</h2>
@@ -44,6 +37,13 @@ export default function Home() {
           <Awards />
         </section>
 
+        <section id="projects" className="py-16">
+          <div className="text-center mb-8">
+            <h2 className="text-4xl font-bold text-gray-800">Projects</h2>
+          </div>
+          <Projects />
+        </section>
+        
         <section id="certifications" className="py-16">
           <div className="text-center mb-8">
             <h2 className="text-4xl font-bold text-gray-800">Certifications</h2>
