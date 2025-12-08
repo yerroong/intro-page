@@ -4,9 +4,19 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 export default function Certifications() {
   const certifications = [
     {
-      name: "데이터분석준전문가",
+      name: "데이터분석준전문가(ADsP)",
       issuer: "한국데이터산업진흥원장",
       date: "25.03.21",
+    },
+    {
+      name: "Google Analytics 4 Certification",
+      issuer: "Google Skillshop",
+      date: "25.12.08",
+    },
+        {
+      name: "OPIc 영어 IL",
+      issuer: "ACTFL",
+      date: "25.12.07", 
     },
   ]
 
