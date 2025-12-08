@@ -176,11 +176,8 @@ export default function Projects() {
                 project.isMobileApp ? "h-64" : "h-56"
               }`}
             >
-              <div
-                className={`absolute inset-0 bg-gradient-to-r ${project.color} opacity-20 group-hover:opacity-40 transition-opacity duration-300`}
-              />
               {project.isMobileApp ? (
-                <div className="w-full h-full bg-gray-200 flex items-center justify-center">
+                <div className="w-full h-full flex items-center justify-center">
                   <Image
                     src={project.image ||"/placeholder.svg"}
                     alt={project.title}
