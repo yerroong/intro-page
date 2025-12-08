@@ -143,7 +143,7 @@ export default function Projects() {
         "/within3.jpg",
         "/within4.jpg",
       ],
-      technologies: ["React", "TypeScript", "Vite", "zustand"],
+      technologies: ["React", "TypeScript", "Vite", "zustand", "GA4"],
       color: "from-indigo-400 to-indigo-600",
       isMobileApp: true,
     },
@@ -194,7 +194,7 @@ export default function Projects() {
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               )}
-              <div className="absolute top-4 right-4 bg-white/90 px-2 py-1 rounded-full text-sm font-medium text-gray-700">
+              <div className="absolute top-4 right-4 bg-[#fffaf4]/90 px-2 py-1 rounded-full text-sm font-medium text-gray-700">
                 {project.year}
               </div>
             </div>
