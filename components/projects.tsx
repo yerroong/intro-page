@@ -31,7 +31,7 @@ export default function Projects() {
     {
       title: "백준 오답노트 Solver",
       year: "2024",
-      role: "(팀장)프론트엔드 / UIUX디자인 / 기획", 
+      role: "(팀장)프론트엔드 / UI&UX디자인 / 기획", 
       description: "멋쟁이사자처럼 인하대 해커톤. 백준 풀이를 위한 오답노트 사이트",
       detailedDescription:
         "멋쟁이사자처럼 인하해커톤, 백준 오답노트 SOLVER는 코딩 공부를 더욱 효율적으로 할 수 있도록 설계된 웹사이트입니다. 총 5명(프론트3, 백엔드2)의 팀원과 진행했습니다. 틀린 문제를 복습하고, 다른 사람의 풀이를 검색 및 공유할 수 있는 기능을 제공합니다. 멋쟁이사자처럼 첫 해커톤인 만큼 창의성보다는 RESTful API 기반으로 프론트엔드와 백엔드의 협업에 심의를 기울였습니다.",
@@ -88,7 +88,7 @@ export default function Projects() {
       color: "from-red-400 to-red-600",
     },
     {
-      title: "Makourse",
+      title: "Makourse - 메이코스",
       year: "2025",
       role: "프론트엔드", 
       description: "(백 서버 닫음)일정 공유를 위한 애플리케이션 제작 프로젝트 메이코스",
@@ -150,7 +150,7 @@ export default function Projects() {
       isMobileApp: true,
     },
         {
-      title: "CookingLog",
+      title: "CookingLog - 쿠킹로그",
       year: "2025",
       role: "(팀장)프론트엔드 / 기획 / 디자인", 
       description: "LG U+ 유레카 3기 프론트엔드 부트캠프 팀프로젝트로 진행한 레시피 기록/공유, AI 챗봇 웹사이트  ",
