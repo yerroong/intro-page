@@ -13,11 +13,6 @@ export default function Certifications() {
       issuer: "Google Skillshop",
       date: "25.12.08",
     },
-        {
-      name: "OPIc 영어 IL",
-      issuer: "ACTFL",
-      date: "25.12.07", 
-    },
   ]
 
   return (
