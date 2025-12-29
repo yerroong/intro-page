@@ -16,9 +16,18 @@ export default function AboutCombined() {
           <div className="space-y-8">
             <div className="text-center">
               <p className="text-lg leading-relaxed text-gray-700">
-                  프론트엔드 개발자에서 멈추지 않고 IT 인재로 개발자가 되는 것을 목표로 하고 있으며,
+                특정 기술에 머무르기보다,  
+                <span className="font-bold text-blue-600">
+                  기술을 활용해 문제를 정의하고 해결할 수 있는 IT 인재가 되는 것을 목표<br/>
+                </span>
+                로 성장하고 있습니다.
+                프론트엔드는 그 출발점이며,  
+                해커톤·프로젝트·대외활동을 통해  
+                기획, 구현, 협업, 개선의 전 과정을 경험하고 있습니다.
                 <br />
-                <span className="font-bold text-blue-600"> 각종 해커톤 및 프로젝트와 대외활동(멋쟁이사자처럼, AI/CV 학부연구생, LG U+ 유레카)</span>을 통해 소프트웨어 능력을 향상시키고 있습니다.
+                <span className="font-semibold text-gray-600">
+                  (멋쟁이사자처럼, AI/CV 학부연구생, LG U+ 유레카 등)
+                </span>
               </p>
             </div>
 

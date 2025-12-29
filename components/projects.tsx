@@ -126,26 +126,45 @@ export default function Projects() {
       color: "from-yellow-400 to-yellow-600",
     },
     {
-      title: "[상용화 예정] 인천시 외국인 근로자산재 보험 가이드 웹앱",
+      title: "[출시 완료] 인천시 외국인 근로자산재 보험 가이드 웹앱",
       year: "2025",
       role: "(개발팀장)프론트엔드", 
       description:
-        "인천시 외국인 종합지원센터에서 3000만원 예산을 받아 진행하며 현재 베타테스트 중. 26.1 출시 목표",
+        "인천시 외국인 종합지원센터에서 3000만원 예산을 받아 진행하며 현재 웹사이트, 플레이스토어, 앱스토어에 출시 완료",
       detailedDescription:
-        "인하대학교 지역상생 아이디어 후속 프로젝트인 ‘인솔루션 프로젝트’입니다. 지역상생 아이디어 총장상을 받은 아이디어를 현실화하는 작업입니다. 예산을 지원받아 인천시 외국인 종합지원센터를 주체로 진행하며 총 7명(기획 2, 프론트 2, 백엔드 2, 디자인 1)의 인하대 학생이 함께하며, 최종적으로 <With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱을 개발하여 외국인이 산재 보험을 편리하게 신청할 수 있도록 하는 것을 목표로 합니다. 5~8월 기획 및 예산 선정 과정을 거쳐 9~12월 개발중이며 26년 1월 정식 출시 계획입니다.",
+        "인하대학교 지역상생 아이디어 후속 프로젝트인 ‘인솔루션 프로젝트’입니다. 지역상생 아이디어 총장상을 받은 아이디어를 현실화하는 작업입니다. 예산을 지원받아 인천시 외국인 종합지원센터를 주체로 진행하며 총 7명(기획 2, 프론트 2, 백엔드 2, 디자인 1)의 인하대 학생이 함께하며, 최종적으로 <With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱을 개발하여 외국인이 산재 보험을 편리하게 신청할 수 있도록 하는 것을 목표로 합니다. 5~8월 기획 및 예산 선정 과정과 9~12월 개발 및 베타테스트를 거쳐 현재 출시되었습니다.",
       url:  "https://github.com/WithIN-Incheon/WithIN-FE",
       githubUrl: "https://github.com/WithIN-Incheon/WithIN-FE",
       liveUrl: "https://www.iscfr-iaga.com/",
       image: "/within4.jpg",
       images: [
-        "/within1.jpg",
-        "/within2.jpg",
-        "/within3.jpg",
-        "/within4.jpg",
+        "/within1.png",
+        "/within2.png",
+        "/within3.png",
+        "/within4.png",
+        "/within5.png",
+        "/within6.png",
       ],
       technologies: ["React", "TypeScript", "Vite", "zustand", "GA4"],
       color: "from-indigo-400 to-indigo-600",
       isMobileApp: true,
+    },
+        {
+      title: "CookingLog",
+      year: "2025",
+      role: "(팀장)프론트엔드 / 기획 / 디자인", 
+      description: "LG U+ 유레카 3기 프론트엔드 부트캠프 팀프로젝트로 진행한 레시피 기록/공유, AI 챗봇 웹사이트  ",
+      detailedDescription:
+       "LG U+ 유레카 3기 프론트엔드 과정에서 진행한 팀 프로젝트로, 개인의 요리 경험을 단순 소비가 아닌 ‘기록 자산’으로 남길 수 있도록 기획한 레시피 플랫폼입니다. 사용자는 자신만의 레시피를 기록하고 공유할 수 있으며, AI 챗봇을 통해 요리 과정 중 궁금한 점을 즉시 해결할 수 있도록 설계했습니다. 총 4명(프론트엔드 중심 팀 구성)으로 진행했으며, 팀장을 맡아 서비스 기획, UI/UX 디자인, 로그인/회원가입/홈/AI 챗봇 전반을 개발했습니다. 특히 사용자 흐름(레시피 작성 → 저장 → 공유 → 재활용)에 집중해 직관적인 UI를 구현했고, 컴포넌트 구조화와 상태 관리에 신경 써 유지보수성을 고려한 개발을 진행했습니다. Next 환경에서 개발을 진행함으로써 Next의 라우팅과 폴더구조를 학습합니다. ",
+      githubUrl: "https://github.com/yerroong/cookinglog",
+      notionUrl: "https://www.notion.so/yerin1412/2-1-2-2c3389b3e03980f59fe8e2e81e321dcb",
+      image: "/cookinglog1.png",
+      images: [
+        "/cookinglog1.png",
+        "/cookinglog2.png",
+      ],
+      technologies: ["Next", "TypeScript", "Spring Boot", "Google Cloud Vision API", "Groq LLM", "브랜치 협업"],
+      color: "from-yellow-400 to-yellow-600",
     },
   ]
 
