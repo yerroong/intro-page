@@ -1,19 +1,19 @@
 import Header from "@/components/header"
-import Navbar from "@/components/navbar"
+import Navigation from "@/components/layout/Navigation"
 import Contact from "@/components/contact"
 import AboutCombined from "@/components/about-combined"
 import Projects from "@/components/projects"
 import Awards from "@/components/awards"
 import TechStack from "@/components/tech-stack"
 import Certifications from "@/components/certifications"
-import Footer from "@/components/footer"
-import AnimatedBackground from "@/components/animated-background"
+import Footer from "@/components/layout/Footer"
+import AnimatedBackground from "@/components/layout/AnimatedBackground"
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 relative overflow-hidden">
       <AnimatedBackground />
-      <Navbar />
+      <Navigation />
       <main className="container mx-auto px-4 py-8 relative z-10">
         <section id="header" className="py-16">
           <Header />

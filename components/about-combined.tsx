@@ -16,7 +16,6 @@ export default function AboutCombined() {
           <div className="space-y-8">
             <div className="text-center">
               <p className="text-lg leading-relaxed text-gray-700">
-                특정 기술에 머무르기보다,  
                 <span className="font-bold text-blue-600">
                   기술을 활용해 문제를 정의하고 해결할 수 있는 IT 인재가 되는 것을 목표<br/>
                 </span>

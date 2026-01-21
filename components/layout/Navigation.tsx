@@ -5,7 +5,7 @@ import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-export default function Navbar() {
+export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleMenu = () => {
