@@ -161,10 +161,11 @@ interface ContactInfo {
 ```
 
 **Responsibilities:**
-- Display contact methods with visual icons
+- Display contact methods with visual icons (Email, GitHub, Notion)
 - Provide clickable links for GitHub and Notion
 - Responsive grid layout
 - Hover effects for interactive elements
+- **Note**: Phone number is excluded from contact information
 
 #### ProjectsSection Component
 ```typescript
@@ -340,8 +341,17 @@ interface Technology {
 interface MenuItem {
   name: string;                     // Display name
   href: string;                     // Anchor link
+  subItems?: MenuItem[];            // Optional sub-navigation items for grouped sections
 }
 ```
+
+### Navigation Structure
+The navigation will be organized into logical groups:
+- **About** (Hero + About sections)
+- **Skills & Certifications** (Technical Stack + Certifications)
+- **Projects** (Projects showcase)
+- **Awards & Activities** (Achievements section)
+- **Contact** (Contact information)
 
 ## Correctness Properties
 
@@ -536,6 +546,23 @@ This ensures traceability between design properties and test implementation.
 4. Performance optimization
 
 ## Visual Design Guidelines
+
+### Navigation Design
+- **Grouped Sections**: Navigation items are logically grouped for better UX
+  - About (Hero + About)
+  - Skills & Certifications (Tech Stack + Certifications)
+  - Projects
+  - Awards & Activities
+  - Contact
+- **Smooth Scrolling**: All navigation links use smooth scroll behavior
+- **Active Indicators**: Current section is highlighted in navigation
+
+### Content Readability
+- **Typography Hierarchy**: Clear distinction between headings, subheadings, and body text
+- **Line Height**: Generous line-height (1.6-1.8) for body text
+- **Content Width**: Max-width constraints for optimal reading length
+- **Whitespace**: Ample spacing between sections and elements
+- **Contrast**: High contrast ratios for text readability
 
 ### Color Palette
 - **Primary**: Blue gradient (from-blue-600 to-purple-600)

@@ -1,7 +1,7 @@
 import { Award, Users } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
-export default function Awards() {
+export default function AchievementsSection() {
   const awards = ["2025 나눔엔젤스 × 인하대 블록체인센터 AI 해커톤 우수상", "BUIDL AI 2025 Hackathon Upstage 트랙 3등"]
 
   const activities = [

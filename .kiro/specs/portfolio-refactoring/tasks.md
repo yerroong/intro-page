@@ -17,14 +17,15 @@
 
 
 
-  - [-] 2.1 Rename navbar.tsx to Navigation.tsx and move to layout/
+  - [x] 2.1 Rename navbar.tsx to Navigation.tsx and move to layout/
 
 
 
 
     - Update component name and exports
     - Update all import references
-    - _Requirements: 1.1, 1.4_
+    - Add grouped navigation structure (About, Skills & Certifications, Projects, Awards & Activities, Contact)
+    - _Requirements: 1.1, 1.1.1, 1.4_
   
   - [x] 2.2 Move Footer.tsx to layout/ folder
 
@@ -60,8 +61,9 @@
   
   - [ ] 3.3 Rename contact.tsx to ContactSection.tsx and move to sections/
     - Update component name and exports
+    - Remove phone number from contact information
     - Update import references
-    - _Requirements: 1.1, 1.4_
+    - _Requirements: 1.1, 1.4, 8.1_
   
   - [ ] 3.4 Rename projects.tsx to ProjectsSection.tsx and move to sections/
     - Update component name and exports
@@ -155,13 +157,16 @@
   - [ ] 9.1 Standardize color palette across all sections
     - Use consistent gradient classes
     - Apply cohesive accent colors
+    - Maintain similar color scheme to current design
     - _Requirements: 3.1_
   
-  - [ ] 9.2 Standardize spacing and padding
+  - [ ] 9.2 Standardize spacing and padding for better readability
     - Apply py-16 to all major sections
     - Use consistent card padding (p-6 to p-8)
     - Use consistent gap values (gap-6 to gap-8)
-    - _Requirements: 3.2_
+    - Improve line-height for body text (1.6-1.8)
+    - Add max-width constraints for optimal reading length
+    - _Requirements: 3.2, 3.6_
   
   - [ ] 9.3 Enhance hover effects and transitions
     - Add scale-105 hover effect to all cards
@@ -281,16 +286,21 @@
     - _Requirements: 5.3, 5.4_
   
   - [ ] 16.3 Test all navigation functionality
-    - Click all nav links
+    - Click all nav links (including grouped sections)
     - Test mobile menu
-    - Verify smooth scrolling
-    - _Requirements: 5.1_
+    - Verify smooth scrolling to each section
+    - _Requirements: 1.1.1, 1.1.2, 5.1_
   
   - [ ] 16.4 Test all interactive elements
     - Test project card clicks
     - Test modal open/close
     - Test external links
     - _Requirements: 5.4, 5.5_
+  
+  - [ ] 16.5 Verify contact section updates
+    - Confirm phone number is removed
+    - Verify remaining contact methods work correctly
+    - _Requirements: 8.1, 8.2_
 
 - [ ] 17. Checkpoint - Ensure all tests pass
   - Ensure all tests pass, ask the user if questions arise.

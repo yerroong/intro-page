@@ -5,7 +5,7 @@ import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { ChevronDown } from "lucide-react"
 
-export default function Header() {
+export default function HeroSection() {
   const [displayText, setDisplayText] = useState("")
   const [showScrollIndicator, setShowScrollIndicator] = useState(true)
   const fullText =

@@ -25,6 +25,17 @@ This document outlines the requirements for refactoring an existing portfolio we
 3. WHEN the folder structure is examined THEN the Portfolio System SHALL follow React best practices for component organization
 4. WHEN component files are opened THEN the Portfolio System SHALL maintain consistent naming conventions across all files
 
+### Requirement 1.1
+
+**User Story:** As a portfolio visitor, I want to see a navigation menu with logically grouped sections, so that I can quickly jump to the content I'm interested in.
+
+#### Acceptance Criteria
+
+1. WHEN the navigation is displayed THEN the Portfolio System SHALL show grouped sections (e.g., "About", "Skills & Certifications", "Projects", "Awards & Activities")
+2. WHEN a navigation item is clicked THEN the Portfolio System SHALL smoothly scroll to the corresponding section
+3. WHEN sections are grouped THEN the Portfolio System SHALL use semantic grouping that makes sense for portfolio content
+4. WHEN the navigation is viewed on mobile THEN the Portfolio System SHALL display the grouped navigation in a mobile-friendly menu
+
 ### Requirement 2
 
 **User Story:** As a portfolio visitor, I want to see content that emphasizes frontend development and IT service planning skills, so that I can understand the developer's core competencies.
@@ -38,15 +49,16 @@ This document outlines the requirements for refactoring an existing portfolio we
 
 ### Requirement 3
 
-**User Story:** As a portfolio visitor, I want to see an aesthetically pleasing and modern design, so that I am impressed by the developer's design sensibility and attention to detail.
+**User Story:** As a portfolio visitor, I want to see an aesthetically pleasing and modern design with improved readability, so that I am impressed by the developer's design sensibility and can easily consume the content.
 
 #### Acceptance Criteria
 
-1. WHEN the portfolio is viewed THEN the Portfolio System SHALL display a cohesive color scheme and typography
-2. WHEN sections are rendered THEN the Portfolio System SHALL use consistent spacing and alignment
+1. WHEN the portfolio is viewed THEN the Portfolio System SHALL display a cohesive color scheme and typography similar to the current design
+2. WHEN sections are rendered THEN the Portfolio System SHALL use consistent spacing and alignment with improved content readability
 3. WHEN interactive elements are hovered THEN the Portfolio System SHALL provide smooth transitions and visual feedback
-4. WHEN the layout is displayed THEN the Portfolio System SHALL maintain visual hierarchy and readability
+4. WHEN the layout is displayed THEN the Portfolio System SHALL maintain visual hierarchy and make content easy to scan and read
 5. WHEN images are shown THEN the Portfolio System SHALL optimize image loading and display quality
+6. WHEN text content is displayed THEN the Portfolio System SHALL use appropriate font sizes, line heights, and contrast for optimal readability
 
 ### Requirement 4
 
@@ -92,3 +104,13 @@ This document outlines the requirements for refactoring an existing portfolio we
 2. WHEN styles are applied THEN the Portfolio System SHALL use consistent styling patterns
 3. WHEN new features are added THEN the Portfolio System SHALL support extension without major refactoring
 4. WHEN code is reviewed THEN the Portfolio System SHALL follow TypeScript and React best practices
+
+### Requirement 8
+
+**User Story:** As a portfolio visitor, I want to see only relevant contact information without phone numbers, so that I can reach out through appropriate professional channels.
+
+#### Acceptance Criteria
+
+1. WHEN the contact section is displayed THEN the Portfolio System SHALL NOT show phone number information
+2. WHEN contact methods are shown THEN the Portfolio System SHALL display email, GitHub, Notion, and other professional links
+3. WHEN contact information is updated THEN the Portfolio System SHALL maintain a clean and professional presentation
