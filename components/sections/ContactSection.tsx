@@ -52,7 +52,7 @@ export default function ContactSection() {
   return (
     <Card className="shadow-md border border-gray-200 bg-white">
       <CardContent className="p-6">
-        <div className="grid grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {contactInfo.map((contact, index) => (
             <div
               key={index}

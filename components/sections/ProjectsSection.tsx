@@ -195,7 +195,7 @@ export default function ProjectsSection() {
 
   return (
     <>
-      <div className="mb-6 flex justify-end gap-2">
+      <div className="mb-6 flex justify-center md:justify-end gap-2 flex-wrap">
         <Button
           variant={sortBy === "importance" ? "default" : "outline"}
           size="sm"
