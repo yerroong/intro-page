@@ -2,18 +2,37 @@ import { Award, Users } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
 export default function AchievementsSection() {
-  const awards = ["2025 나눔엔젤스 × 인하대 블록체인센터 AI 해커톤 우수상(25.03.25)", "BUIDL AI 2025 Hackathon Upstage 트랙 3등(25.05.12)", "2026년도 제 1회 대학 연합 해커톤 ASCII-THON 서비스 개발 트랙 장려상(26.01.31)"]
+  const awards = [
+    {
+      date: "2025.03.25",
+      title: "AI 해커톤",
+      organizer: "나눔엔젤스 × 인하대 블록체인센터",
+      award: "우수상"
+    },
+    {
+      date: "2025.04.12",
+      title: "BUIDL AI 2025 Hackathon",
+      organizer: "BUIDL AI",
+      award: "Upstage 트랙 3등"
+    },
+    {
+      date: "2026.01.31",
+      title: "제 1회 대학 연합 해커톤 ASCII-THON",
+      organizer: "아주대, 서울시립대, 인하대, 중앙대",
+      award: "서비스 개발 트랙 장려상"
+    }
+  ]
 
   const activities = [
-    "2023 달꿈 멘토단 활동",
-    "멋쟁이 사자처럼 12기 FE 커리큘럼 이수 (24.03~12)",
-    "멋쟁이 사자처럼 13기 FE 운영진(25.01~)",
-    "정보통신공학과 학생회장 직무대행(24.01~04)",
-    "정보통신공학과 학생부회장 (24.04~12)",
-    "인하대 전자공학과 CVIP Lab 학부연구생(24.09~12)",
-    "인하대 전기전자공학부 생성형AI 연구실 학부연구생(25.03~08)",
-    "인천 외국인종합지원센터 '인천 외국인 산재보험 가이드' 웹앱 출시(25.06~12)",
-    "LG U+ 유레카 부트캠프 프론트엔트 비대면반(25.08~ing)",
+    { period: "2023", content: "달꿈 멘토단 활동" },
+    { period: "24.03-24.12", content: "멋쟁이 사자처럼 12기 FE 커리큘럼 이수" },
+    { period: "25.01-25.12", content: "멋쟁이 사자처럼 13기 FE 운영진" },
+    { period: "24.01-24.04", content: "정보통신공학과 학생회장 직무대행" },
+    { period: "24.04-24.12", content: "정보통신공학과 학생부회장" },
+    { period: "24.09-24.12", content: "인하대 전자공학과 CVIP Lab 학부연구생" },
+    { period: "25.03-25.08", content: "인하대 전기전자공학부 생성형AI 연구실 학부연구생" },
+    { period: "25.06-25.12", content: "인천 외국인종합지원센터 '인천 외국인 산재보험 가이드' 웹앱 출시" },
+    { period: "25.08~ ing", content: "LG U+ 유레카 부트캠프 프론트엔드 비대면반" },
   ]
 
   return (
@@ -27,14 +46,20 @@ export default function AchievementsSection() {
             </div>
             <h3 className="text-2xl font-bold text-gray-800">Awards</h3>
           </div>
-          <ul className="space-y-4">
+          <div className="space-y-5">
             {awards.map((award, index) => (
-              <li key={index} className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 flex-shrink-0" />
-                <p className="text-gray-700 leading-relaxed">{award}</p>
-              </li>
+              <div key={index} className="flex gap-4">
+                <div className="flex-shrink-0 w-20 text-sm font-semibold text-yellow-600 pt-1">
+                  {award.date}
+                </div>
+                <div className="flex-1 border-l-2 border-yellow-200 pl-4">
+                  <h4 className="font-semibold text-gray-800 mb-1">{award.title}</h4>
+                  <p className="text-xs text-gray-500 mb-1">{award.organizer}</p>
+                  <p className="text-sm text-yellow-600 font-medium">{award.award}</p>
+                </div>
+              </div>
             ))}
-          </ul>
+          </div>
         </CardContent>
       </Card>
 
@@ -47,14 +72,18 @@ export default function AchievementsSection() {
             </div>
             <h3 className="text-2xl font-bold text-gray-800">Activities</h3>
           </div>
-          <ul className="space-y-3">
+          <div className="space-y-4">
             {activities.map((activity, index) => (
-              <li key={index} className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0" />
-                <p className="text-gray-700 text-sm leading-relaxed">{activity}</p>
-              </li>
+              <div key={index} className="flex gap-4">
+                <div className="flex-shrink-0 w-24 text-xs font-semibold text-blue-600 pt-1">
+                  {activity.period}
+                </div>
+                <div className="flex-1 border-l-2 border-blue-200 pl-4">
+                  <p className="text-sm text-gray-700 leading-relaxed">{activity.content}</p>
+                </div>
+              </div>
             ))}
-          </ul>
+          </div>
         </CardContent>
       </Card>
     </div>
