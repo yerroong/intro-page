@@ -24,7 +24,6 @@ export default function AchievementsSection() {
   ]
 
   const activities = [
-    { period: "2023", content: "달꿈 멘토단 활동" },
     { period: "24.03-24.12", content: "멋쟁이 사자처럼 12기 FE 커리큘럼 이수" },
     { period: "25.01-25.12", content: "멋쟁이 사자처럼 13기 FE 운영진" },
     { period: "24.01-24.04", content: "정보통신공학과 학생회장 직무대행" },
