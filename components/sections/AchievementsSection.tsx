@@ -2,7 +2,7 @@ import { Award, Users } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
 export default function AchievementsSection() {
-  const awards = ["2025 나눔엔젤스 × 인하대 블록체인센터 AI 해커톤 우수상", "BUIDL AI 2025 Hackathon Upstage 트랙 3등"]
+  const awards = ["2025 나눔엔젤스 × 인하대 블록체인센터 AI 해커톤 우수상(25.03.25)", "BUIDL AI 2025 Hackathon Upstage 트랙 3등(25.05.12)", "2026년도 제 1회 대학 연합 해커톤 ASCII-THON 서비스 개발 트랙 장려상(26.01.31)"]
 
   const activities = [
     "2023 달꿈 멘토단 활동",
