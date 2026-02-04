@@ -18,7 +18,7 @@ export default function ProjectsSection() {
     {
       title: "쇼티 - 숏폼 영상 서비스",
       year: "2024",
-      importance: 5,
+      importance: 7,
       role: "프론트엔드 / 기획", 
       description: "프로메테우스 해커톤. 롱폼 영상을 숏폼으로 만들어주는 ai 사이트 (현재 비공개 상태)",
       detailedDescription:
@@ -36,7 +36,7 @@ export default function ProjectsSection() {
     {
       title: "가스/화재 안전 통합 시스템",
       year: "2024",
-      importance: 7,
+      importance: 9,
       role: "프론트엔드 / UI&UX디자인 / 기획", 
       description: "인하대 이노씽크 메이커톤 본선에서 진행한 가스 및 화재 안전 관리를 위한 통합 안전 사이트",
       detailedDescription:
@@ -57,14 +57,13 @@ export default function ProjectsSection() {
     {
       title: "With - 사회적 고립청년 대상 서비스",
       year: "2024",
-      importance: 6,
+      importance: 8,
       role: "(팀장)프론트엔드 / UI&UX디자인 / 기획", 
       description: "멋쟁이사자처럼 중앙 해커톤에서 진행한 사회적 고립청년을 위한 커뮤니티 사이트",
       detailedDescription:
         "멋쟁이사자처럼 중앙 해커톤에 제출한 프로젝트입니다. 총 5명(프론트3, 백엔드2)의 팀원과 진행했습니다. 사회적 고립을 겪고 있는 청년들을 위한 온라인 커뮤니티 플랫폼입니다. 익명성을 보장하면서도 안전한 소통 공간을 제공하며, 전문가 상담, 그룹 활동, 멘토링 프로그램 등을 통해 사회 복귀를 지원합니다. 사용자 경험을 중시한 UI/UX 디자인에 특히 신경을 썼습니다.",
       url: "https://github.com/yerroong/Reverseinha_team_front.git",
       githubUrl: "https://github.com/yerroong/Reverseinha_team_front.git",
-      liveUrl: "https://reverseinha.github.io/Reverseinha_team_front",
       image: "/with1.png",
       images: [
         "/with1.png",
@@ -79,7 +78,7 @@ export default function ProjectsSection() {
     {
       title: "Makourse - 메이코스",
       year: "2024",
-      importance: 2,
+      importance: 3,
       role: "프론트엔드", 
       description: "(서버 닫음) 일정 공유를 위한 웹앱 제작 팀 프로젝트 '메이코스'",
       detailedDescription:
@@ -103,9 +102,9 @@ export default function ProjectsSection() {
     {
       title: "HackDoc",
       year: "2025",
-      importance: 4,
+      importance: 6,
       role: "프론트엔드", 
-      description: "Build AI 2025 Upstage 트랙 3등 수상",
+      description: "Build AI 2025 Upstage 트랙 3등 수상🏆️",
       detailedDescription:
         "HackDoc은 Upstage의 문서 파싱 및 정보 추출 기능을 활용해, 초보 개발자가 기술 문서를 더 쉽고 빠르게 이해하고 활용할 수 있도록 돕는 AI 도우미입니다. 총 5명(기획3, 프론트1, 백엔드1)에서 2박 3일로 진행했으며, 트랙 3등을 수상했습니다. devfolio 사이트에서 시연 영상과 디테일한 내용을 확인할 수 있습니다.",
       githubUrl: "https://github.com/yerroong/BuildAI_Hackathon",
@@ -146,7 +145,7 @@ export default function ProjectsSection() {
     {
       title: "CookingLog - 쿠킹로그",
       year: "2025",
-      importance: 3,
+      importance: 5,
       role: "(팀장)프론트엔드 / 기획 / 디자인", 
       description: "LG U+ 유레카 3기 프론트엔드 부트캠프 팀프로젝트로 진행한 레시피 기록/공유, AI 챗봇 웹사이트  ",
       detailedDescription:
@@ -160,6 +159,52 @@ export default function ProjectsSection() {
       ],
       technologies: ["Next.js", "TypeScript", "Google Cloud Vision API", "Groq LLM"],
       color: "from-yellow-400 to-yellow-600",
+    },
+    {
+      title: "다무너 - 실시간 상담 및 AI 기반 상담 요약 통신사 플랫폼",
+      year: "2026",
+      importance: 2,
+      role: "(팀장) 프론트엔드 / 기획 / 디자인", 
+      description: "LG U+ 유레카 부트캠프 프론트 3기 종합프로젝트로 진행한, 실시간 상담 및 AI 기반 상담 요약 통신사 플랫폼",
+      detailedDescription:
+        "LG U+ 유레카 부트캠프 프론트엔드 3기 종합 프로젝트입니다. 실시간 상담 기능과 AI 기반 상담 요약 기능을 제공하는 통신사 플랫폼을 개발했습니다. 사용자는 실시간으로 상담원과 채팅할 수 있으며, AI가 상담 내용을 자동으로 요약해주는 기능을 구현했습니다. React와 TypeScript를 활용하여 개발했으며, 실시간 통신을 위해 WebSocket을 활용했습니다.",
+      githubUrl: "https://github.com/Da-Moono/DaMoono-Frontend",
+      liveUrl: "https://da-moono-frontend-deploy.vercel.app/",
+      notionUrl: "https://www.notion.so/yerin1412/2e6389b3e03980139704d1442c4c341e",
+      image: "/damoono1.png",
+      images: [
+        "/damoono1.png",
+        "/damoono6.png",
+        "/damoono2.png",
+        "/damoono3.png",
+        "/damoono7.png",
+        "/damoono4.png",
+        "/damoono5.png",
+      ],
+      technologies: ["React", "TypeScript", "WebSocket", "OpenAI"],
+      color: "from-green-400 to-green-600",
+      isMobileApp: true,
+      isImportant: true,
+    },
+    {
+      title: "YAKKAN - 약관이 '약간' 이상할 때",
+      year: "2026",
+      importance: 4,
+      role: "프론트엔드", 
+      description: "ASCII-THON SW 서비스 개발트랙 장려상🏆️ 약관이 '약간' 이상할 때, YAKKAN",
+      detailedDescription:
+        "ASCII-THON 해커톤에서 SW 서비스 개발 트랙 장려상을 수상한 프로젝트입니다. 복잡하고 어려운 약관을 쉽게 이해할 수 있도록 도와주는 서비스를 개발했습니다. 사용자가 약관을 업로드하면 AI가 분석하여 핵심 내용을 요약하고, 주의해야 할 부분을 하이라이트해주는 기능을 구현했습니다. React와 TypeScript를 활용하여 직관적인 UI/UX를 제공합니다.",
+      githubUrl: "https://github.com/DooZzonSa/DooZzonSa-FE",
+      liveUrl: "https://doo-zzon-sa-fe.vercel.app/",
+      image: "/yakkan4.png",
+      images: [
+        "/yakkan1.png",
+        "/yakkan2.png",
+        "/yakkan3.png",
+        "/yakkan4.png",
+      ],
+      technologies: ["Next.js", "TypeScript"],
+      color: "from-orange-400 to-red-600",
     },
   ]
 
@@ -275,7 +320,40 @@ export default function ProjectsSection() {
               </p>
               <p className="text-gray-600 mb-4 text-sm line-clamp-3">{project.description}</p>
 
-              {project.githubUrl && project.liveUrl ? (
+              {project.githubUrl && project.liveUrl && project.notionUrl ? (
+                <div className="flex gap-2 flex-wrap">
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-3 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-sm"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <span className="mr-2">GitHub</span>
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-3 py-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-sm"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <span className="mr-2">Live Demo</span>
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                  <a
+                    href={project.notionUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-3 py-2 bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-sm"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <span className="mr-2">Notion</span>
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                </div>
+              ) : project.githubUrl && project.liveUrl ? (
                 <div className="flex gap-2 flex-wrap">
                   <a
                     href={project.githubUrl}
