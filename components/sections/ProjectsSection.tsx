@@ -62,7 +62,6 @@ export default function ProjectsSection() {
       description: "멋쟁이사자처럼 중앙 해커톤에서 진행한 사회적 고립청년을 위한 커뮤니티 사이트",
       detailedDescription:
         "멋쟁이사자처럼 중앙 해커톤에 제출한 프로젝트입니다. 총 5명(프론트3, 백엔드2)의 팀원과 진행했습니다. 사회적 고립을 겪고 있는 청년들을 위한 온라인 커뮤니티 플랫폼입니다. 익명성을 보장하면서도 안전한 소통 공간을 제공하며, 전문가 상담, 그룹 활동, 멘토링 프로그램 등을 통해 사회 복귀를 지원합니다. 사용자 경험을 중시한 UI/UX 디자인에 특히 신경을 썼습니다.",
-      url: "https://github.com/yerroong/Reverseinha_team_front.git",
       githubUrl: "https://github.com/yerroong/Reverseinha_team_front.git",
       image: "/with1.png",
       images: [
@@ -78,14 +77,12 @@ export default function ProjectsSection() {
     {
       title: "Makourse - 메이코스",
       year: "2024",
-      importance: 3,
+      importance: 5,
       role: "프론트엔드", 
       description: "(서버 닫음) 일정 공유를 위한 웹앱 제작 팀 프로젝트 '메이코스'",
       detailedDescription:
         "출시를 목표로 3개월간 진행한 팀 프로젝트입니다(실제 출시 X, 현재 백엔드 서버 닫혀있음). 총 6명(프론트3, 백엔드2, 디자이너1)에서 진행했으며, 메이코스 서비스는 개인간의 계획성 약속의 확실함을 제공해주고자 합니다. 약속 날짜와 장소를 짜고 구성하는데에 불편함을 해결해주는 어플리케이션입니다. 서비스 이름은 make + course(일정 코스, 데이트 코스할 때의 코스)로 React를 활용하여 반응형 인터페이스를 구현했으며, 주요 기능은 일행과 같이 약속 계획 짜기가 가능하며 특정 장소 및 계획에 시간설정/메모/대안 설정이 가능합니다.",
-      url: "https://makourse.my/",
-      githubUrl: "https://github.com/yerroong/makourse",
-      liveUrl: "https://makourse.my/",
+      githubUrl: "https://github.com/orgs/Makourse/repositories",
       image: "/makourse1.png",
       images: [
         "/makourse1.png",
@@ -97,7 +94,6 @@ export default function ProjectsSection() {
       technologies: ["React", "JavaScript","SpringBoot", "Figma"],
       color: "from-teal-400 to-teal-600",
       isMobileApp: true,
-      isImportant: true,
     },
     {
       title: "HackDoc",
@@ -145,7 +141,7 @@ export default function ProjectsSection() {
     {
       title: "CookingLog - 쿠킹로그",
       year: "2025",
-      importance: 5,
+      importance: 3,
       role: "(팀장)프론트엔드 / 기획 / 디자인", 
       description: "LG U+ 유레카 3기 프론트엔드 부트캠프 팀프로젝트로 진행한 레시피 기록/공유, AI 챗봇 웹사이트  ",
       detailedDescription:
@@ -156,6 +152,8 @@ export default function ProjectsSection() {
       images: [
         "/cookinglog1.png",
         "/cookinglog2.png",
+        "/cookinglog3.png",
+        "/cookinglog4.png",
       ],
       technologies: ["Next.js", "TypeScript", "Google Cloud Vision API", "Groq LLM"],
       color: "from-yellow-400 to-yellow-600",
