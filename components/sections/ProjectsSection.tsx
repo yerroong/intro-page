@@ -189,7 +189,7 @@ export default function ProjectsSection() {
       year: "2026",
       importance: 4,
       role: "프론트엔드", 
-      description: "ASCII-THON SW 서비스 개발트랙 장려상🏆️ 약관이 '약간' 이상할 때, YAKKAN",
+      description: "ASCII-THON SW 서비스 개발트랙 장려상🏆️",
       detailedDescription:
         "ASCII-THON 해커톤에서 SW 서비스 개발 트랙 장려상을 수상한 프로젝트입니다. 복잡하고 어려운 약관을 쉽게 이해할 수 있도록 도와주는 서비스를 개발했습니다. 사용자가 약관을 업로드하면 AI가 분석하여 핵심 내용을 요약하고, 주의해야 할 부분을 하이라이트해주는 기능을 구현했습니다. React와 TypeScript를 활용하여 직관적인 UI/UX를 제공합니다.",
       githubUrl: "https://github.com/DooZzonSa/DooZzonSa-FE",
