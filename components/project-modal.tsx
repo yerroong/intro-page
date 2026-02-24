@@ -22,14 +22,25 @@ interface ProjectModalProps {
 
 export default function ProjectModal({ onClose, project }: ProjectModalProps) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
+  const [isImageLoading, setIsImageLoading] = useState(true)
 
   const nextImage = () => {
+    setIsImageLoading(true)
     setCurrentImageIndex((prev) => (prev + 1) % project.images.length)
   }
 
   const prevImage = () => {
+    setIsImageLoading(true)
     setCurrentImageIndex((prev) => (prev - 1 + project.images.length) % project.images.length)
   }
+
+  const handleImageLoad = () => {
+    setIsImageLoading(false)
+  }
+
+  useEffect(() => {
+    setIsImageLoading(true)
+  }, [currentImageIndex])
 
   return (
     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
@@ -46,6 +57,11 @@ export default function ProjectModal({ onClose, project }: ProjectModalProps) {
           </div>
 
           <div className="relative">
+            {isImageLoading && (
+              <div className="absolute inset-0 flex items-center justify-center bg-gray-100 z-10">
+                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+              </div>
+            )}
             {project.isMobileApp ? (
               /* 모바일 앱 스크린샷용 - 고정 크기 컨테이너 */
               <div className="w-full h-96 bg-gray-300 flex items-center justify-center relative overflow-hidden">
@@ -56,6 +72,7 @@ export default function ProjectModal({ onClose, project }: ProjectModalProps) {
                     width={400}
                     height={850}
                     className="object-contain max-h-full max-w-full"
+                    onLoad={handleImageLoad}
                   />
                 </div>
               </div>
@@ -67,6 +84,7 @@ export default function ProjectModal({ onClose, project }: ProjectModalProps) {
                   alt={`${project.title} screenshot ${currentImageIndex + 1}`}
                   fill
                   className="object-cover"
+                  onLoad={handleImageLoad}
                 />
               </div>
             )}

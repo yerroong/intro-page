@@ -37,10 +37,10 @@ export default function ProjectsSection() {
       title: "가스/화재 안전 통합 시스템",
       year: "2024",
       importance: 9,
-      role: "프론트엔드 / UI&UX디자인 / 기획", 
-      description: "인하대 이노씽크 메이커톤 본선에서 진행한 가스 및 화재 안전 관리를 위한 통합 안전 사이트",
+      role: "프론트엔드 / 기획", 
+      description: "인하대 이노씽크 메이커톤 본선에서 진행한 가스 및 화재 안전 관리를 위한 통합 안전 시스템 (with.임베디드)",
       detailedDescription:
-        "IoT 센서와 연동된 실시간 가스 및 화재 감지 시스템입니다. 총 5명의 팀원(프론트1, 백엔드3, 총괄1, 디자인1)로 진행했으며 센서 데이터를 실시간으로 모니터링하고, 위험 상황 발생 시 즉시 알림을 전송하며, 대응 매뉴얼을 제공합니다. 하드웨어와 소프트웨어를 통합한 종합적인 안전 관리 솔루션입니다. 직접 주거 모형을 제작하여 센서가 사이트에서 실제로 잘 동작하나 확인도 완료하였으며 본선 진출하였습니다.",
+        "IoT 센서와 연동된 실시간 가스 및 화재 감지 시스템입니다. 총 5명의 팀원(프론트1, 백엔드1, 임베디드2, 디자인1)로 진행했으며 센서 데이터를 실시간으로 모니터링하고, 위험 상황 발생 시 즉시 알림을 전송하며, 대응 매뉴얼을 제공합니다. 하드웨어와 소프트웨어를 통합한 종합적인 안전 관리 솔루션입니다. 직접 주거 모형을 제작하여 센서가 사이트에서 실제로 잘 동작하나 확인도 완료하였으며 본선 진출하였습니다.",
       url: "https://github.com/yerroong/2024innosafe",
       githubUrl: "https://github.com/yerroong/2024innosafe",
       notionUrl: "https://www.notion.so/yerin1412/2024-12b389b3e039807f86b3d1fef0e89e98",
@@ -58,12 +58,12 @@ export default function ProjectsSection() {
       title: "With - 사회적 고립청년 대상 서비스",
       year: "2024",
       importance: 8,
-      role: "(팀장)프론트엔드 / UI&UX디자인 / 기획", 
+      role: "(팀장)프론트엔드 / 기획 / 디자인", 
       description: "멋쟁이사자처럼 중앙 해커톤에서 진행한 사회적 고립청년을 위한 커뮤니티 사이트",
       detailedDescription:
         "멋쟁이사자처럼 중앙 해커톤에 제출한 프로젝트입니다. 총 5명(프론트3, 백엔드2)의 팀원과 진행했습니다. 사회적 고립을 겪고 있는 청년들을 위한 온라인 커뮤니티 플랫폼입니다. 익명성을 보장하면서도 안전한 소통 공간을 제공하며, 전문가 상담, 그룹 활동, 멘토링 프로그램 등을 통해 사회 복귀를 지원합니다. 사용자 경험을 중시한 UI/UX 디자인에 특히 신경을 썼습니다.",
       githubUrl: "https://github.com/yerroong/Reverseinha_team_front.git",
-      image: "/with1.png",
+      image: "/with2.png",
       images: [
         "/with1.png",
         "/with2.png",
@@ -185,7 +185,7 @@ export default function ProjectsSection() {
       isImportant: true,
     },
     {
-      title: "YAKKAN - 약관이 '약간' 이상할 때",
+      title: "YAKKAN - 약관이 '약간' 이상ㄺ할 때",
       year: "2026",
       importance: 4,
       role: "프론트엔드", 
