@@ -185,7 +185,7 @@ export default function ProjectsSection() {
       isImportant: true,
     },
     {
-      title: "YAKKAN - 약관이 '약간' 이상ㄺ할 때",
+      title: "YAKKAN - 약관이 '약간' 이상할 때",
       year: "2026",
       importance: 4,
       role: "프론트엔드", 
