@@ -57,7 +57,7 @@ export default function HeroSection() {
                 </div>
               </div>
               <div className="text-center text-sm text-gray-600 space-y-1">
-                <p className="font-medium">인하대 정보통신공학과 22학번 (휴학중)</p>
+                <p className="font-medium">인하대 정보통신공학과 22학번 (26.8 졸업예정)</p>
               </div>
             </div>
             <div className="text-center md:text-left flex-1">
