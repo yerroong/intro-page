@@ -9,9 +9,9 @@ export default function Certifications() {
       date: "25.03.21",
     },
     {
-      name: "Google Analytics 4 Certification",
-      issuer: "Google Skillshop",
-      date: "25.12.08",
+      name: "OPIc 영어 IM1(Intermediate Mid)",
+      issuer: "ACTFL",
+      date: "26.03.14",
     },
   ]
 
