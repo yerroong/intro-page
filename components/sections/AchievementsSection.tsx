@@ -5,7 +5,7 @@ export default function AchievementsSection() {
   const awards = [
     {
       date: "2026.03.25",
-      title: "LG U+ 유레카 최종융합프로젝트",
+      title: "LG U+ 유레카 3기 SW 최종융합프로젝트",
       organizer: "LG 유플러스 X 멀티캠퍼스",
       award: "최우수상 1등"
     },
