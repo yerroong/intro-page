@@ -4,10 +4,16 @@ import { Card, CardContent } from "@/components/ui/card"
 export default function AchievementsSection() {
   const awards = [
     {
-      date: "2025.03.25",
-      title: "AI 해커톤",
-      organizer: "나눔엔젤스 × 인하대 블록체인센터",
-      award: "우수상"
+      date: "2026.03.25",
+      title: "LG U+ 유레카 최종융합프로젝트",
+      organizer: "LG 유플러스 X 멀티캠퍼스",
+      award: "최우수상 1등"
+    },
+    {
+      date: "2026.01.31",
+      title: "제 1회 대학 연합 해커톤 ASCII-THON",
+      organizer: "아주대, 서울시립대, 인하대, 중앙대",
+      award: "서비스 개발 트랙 장려상"
     },
     {
       date: "2025.04.12",
@@ -16,10 +22,10 @@ export default function AchievementsSection() {
       award: "Upstage 트랙 3등"
     },
     {
-      date: "2026.01.31",
-      title: "제 1회 대학 연합 해커톤 ASCII-THON",
-      organizer: "아주대, 서울시립대, 인하대, 중앙대",
-      award: "서비스 개발 트랙 장려상"
+      date: "2025.03.25",
+      title: "AI 해커톤",
+      organizer: "나눔엔젤스 × 인하대 블록체인센터",
+      award: "우수상"
     }
   ]
 
@@ -31,7 +37,7 @@ export default function AchievementsSection() {
     { period: "24.09-24.12", content: "인하대 전자공학과 CVIP Lab 학부연구생" },
     { period: "25.03-25.08", content: "인하대 전기전자공학부 생성형AI 연구실 학부연구생" },
     { period: "25.06-25.12", content: "인천 외국인종합지원센터 '인천 외국인 산재보험 가이드' 웹앱 출시" },
-    { period: "25.08~ ing", content: "LG U+ 유레카 부트캠프 프론트엔드 비대면반" },
+    { period: "25.08~26.03", content: "LG U+ 유레카 프론트엔드 과정 수료" },
   ]
 
   return (
