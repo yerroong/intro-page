@@ -30,14 +30,14 @@ export default function AchievementsSection() {
   ]
 
   const activities = [
-    { period: "24.03-24.12", content: "멋쟁이 사자처럼 12기 FE 커리큘럼 이수" },
-    { period: "25.01-25.12", content: "멋쟁이 사자처럼 13기 FE 운영진" },
-    { period: "24.01-24.04", content: "정보통신공학과 학생회장 직무대행" },
-    { period: "24.04-24.12", content: "정보통신공학과 학생부회장" },
-    { period: "24.09-24.12", content: "인하대 전자공학과 CVIP Lab 학부연구생" },
-    { period: "25.03-25.08", content: "인하대 전기전자공학부 생성형AI 연구실 학부연구생" },
-    { period: "25.06-25.12", content: "인천 외국인종합지원센터 '인천 외국인 산재보험 가이드' 웹앱 출시" },
     { period: "25.08~26.03", content: "LG U+ 유레카 프론트엔드 과정 수료" },
+    { period: "25.06-25.12", content: "인천 외국인종합지원센터 '인천 외국인 산재보험 가이드' 웹앱 출시" },
+    { period: "25.03-25.08", content: "인하대 전기전자공학부 생성형AI 연구실 학부연구생" },
+    { period: "25.01-25.12", content: "멋쟁이 사자처럼 13기 FE 운영진" },
+    { period: "24.09-24.12", content: "인하대 전자공학과 CVIP Lab 학부연구생" },
+    { period: "24.04-24.12", content: "정보통신공학과 학생부회장" },
+    { period: "24.03-24.12", content: "멋쟁이 사자처럼 12기 FE 커리큘럼 이수" },
+    { period: "24.01-24.04", content: "정보통신공학과 학생회장 직무대행" },
   ]
 
   return (

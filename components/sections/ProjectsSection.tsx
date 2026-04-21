@@ -16,6 +16,32 @@ export default function ProjectsSection() {
 
   const projects = [
     {
+      title: "POOLI - LG U+ 가족 데이터 통합 관리 앱",
+      year: "2026",
+      importance: 0,
+      role: "프론트엔드 / UI 구현 및 API 연동, Figma 설계",
+      description: "LG U+ 유레카 3기 SW 최종융합프로젝트 최우수상 1등🏆️ - 가족 결합 사용자를 위한 실시간 데이터 통합 관리 및 스마트 제약 시스템",
+      detailedDescription:
+        "LG U+ 유레카에서 주어진 주제를 바탕으로 총 8명이 진행한 팀 프로젝트입니다. POOLI는 LG유플러스 가족 결합 상품 사용자를 위한 실시간 가족 데이터 통합 관리 및 스마트 제약 시스템으로, 가족 구성원별 데이터 사용량을 실시간으로 모니터링하고 앱별 사용량 제한·속도 제한·차단 정책을 설정할 수 있습니다. 공유 데이터풀 관리, 알림 발송, 문의 관리 등 관리자 기능도 함께 제공합니다.\n\nReact, TypeScript 기반으로 공유풀, 상세페이지, 설정, 문의, 어드민 페이지까지 전체 사용자 흐름을 고려한 UI를 개발하고, REST API 연동을 통해 데이터 흐름을 안정적으로 처리했습니다. Jira를 활용해 스프린트를 직접 설계하고, Figma를 기반으로 기획 의도를 반영한 UI를 구현했으며, GitHub 환경 세팅 및 브랜치 전략을 구성하여 협업 효율을 높였습니다. 코드 리뷰와 리팩토링을 통해 컴포넌트 구조를 개선하고 재사용성을 높였습니다.",
+      githubUrl: "https://github.com/pooli-dev/pooli-fe",
+      notionUrl: "https://www.notion.so/yerin1412/1-2c3389b3e03981e2a56bdaa42ff24264",
+      image: "/pooli2.png",
+      images: [
+        "/pooli2.png",
+        "/pooli3.png",
+        "/pooli4.png",
+        "/pooli5.png",
+        "/pooli6.png",
+        "/pooli7.png",
+        "/pooli8.png",
+        "/pooli9.png",
+      ],
+      technologies: ["React", "TypeScript", "REST API", "Figma", "Jira"],
+      color: "from-blue-300 to-blue-500",
+      isMobileApp: true,
+      isImportant: true,
+    },
+    {
       title: "쇼티 - 숏폼 영상 서비스",
       year: "2024",
       importance: 7,
@@ -100,7 +126,7 @@ export default function ProjectsSection() {
       year: "2025",
       importance: 6,
       role: "프론트엔드", 
-      description: "Build AI 2025 Upstage 트랙 3등 수상🏆️",
+      description: "BUIDL AI 2025 Upstage 트랙 3등 수상🏆️",
       detailedDescription:
         "HackDoc은 Upstage의 문서 파싱 및 정보 추출 기능을 활용해, 초보 개발자가 기술 문서를 더 쉽고 빠르게 이해하고 활용할 수 있도록 돕는 AI 도우미입니다. 총 5명(기획3, 프론트1, 백엔드1)에서 2박 3일로 진행했으며, 트랙 3등을 수상했습니다. devfolio 사이트에서 시연 영상과 디테일한 내용을 확인할 수 있습니다.",
       githubUrl: "https://github.com/yerroong/BuildAI_Hackathon",
