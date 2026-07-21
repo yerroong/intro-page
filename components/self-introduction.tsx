@@ -10,7 +10,7 @@ export default function SelfIntroduction() {
             <p className="text-lg leading-relaxed text-gray-700">
               안녕하세요! 저는 김예린입니다!
               <br />
-              현재 인하대 정보통신공학과 4학년 재학중이며 현재 프론트엔드 웹 개발자를 꿈꾸고 있습니다
+              현재 IBK기업은행 it인턴을 진행중이며 IT 엔지니어를 꿈꾸고 있습니다
             </p>
           </div>
 

@@ -33,7 +33,7 @@ export default function AboutSection() {
                 프론트엔드는 그 출발점이며, 해커톤·프로젝트·대외활동을 통해 기획, 구현, 협업, 개선의 전 과정을 경험하고 있습니다.
                 <br />
                 <span className="font-semibold text-gray-600">
-                  (멋쟁이사자처럼, AI/CV 학부연구생, LG U+ 유레카 등)
+                  (멋쟁이사자처럼, AI/CV 학부연구생, LG U+ 유레카, IBK 기업은행 it인턴 등)
                 </span>
               </p>
             </div>
@@ -161,9 +161,8 @@ export default function AboutSection() {
               <p className="text-base leading-relaxed text-gray-700">
                 <span className="font-semibold text-blue-500">서비스의 기능과 품질을 함께 고민하는 IT 인재 김예린입니다!</span>
                 <br />
-                현재 인하대학교 정보통신공학과 4학년 휴학 중이며,
                 프론트엔드를 중심으로 데이터베이스, 컴퓨터비전, AI 등
-                IT 전반에 관심을 가지고 학부 연구생 활동과
+                IT 전반에 관심을 가지고 학부 연구생 활동과 IBK기업은행 인턴까지
                 다양한 프로젝트를 통해 폭넓은 경험을 쌓아왔습니다. 👊
               </p>
             </div>
