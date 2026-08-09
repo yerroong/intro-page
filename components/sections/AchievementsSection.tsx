@@ -41,17 +41,17 @@ export default function AchievementsSection() {
     {
       period: "2025.08 ~ 2026.03",
       title: "LG U+ 유레카 3기 프론트엔드 과정 수료",
-      description: "IT 전반 및 FE 과정 수료 / 프로젝트 3회 주도 및 최우수상 수상"
+      description: "IT 전반 및 FE 과정 수료 / 팀 프로젝트 3회 및 수상"
     },
     {
       period: "2025.06 ~ 2025.12",
       title: "인천 외국인종합지원센터 '인천 외국인 산재보험 가이드' 앱 출시",
-      description: "프론트엔드 개발팀장 / React·TypeScript 기반 UI 구축 및 AWS 배포·출시"
+      description: "개발팀장 / UI 구축 및 AWS 배포·출시"
     },
     {
       period: "2025.03 ~ 2025.08",
       title: "인하대 전기전자공학부 생성형AI 연구실 학부연구생",
-      description: "생성형 AI 논문 세미나 및 Upstage API 기반 정보 추출 서비스 개발"
+      description: "생성형 AI 논문 세미나 참여 및 Upstage 기반 정보 추출 서비스 개발"
     },
     {
       period: "2024.09 ~ 2024.12",
@@ -61,12 +61,12 @@ export default function AchievementsSection() {
     {
       period: "2024.03 ~ 2025.12",
       title: "멋쟁이 사자처럼 12기 FE 이수 / 13기 FE 운영진",
-      description: "HTML/CSS·JS·React 커리큘럼 이수 / FE 프로젝트 개발 및 운영진 활동"
+      description: "HTML/CSS·JS·React 커리큘럼 이수, FE 프로젝트 개발 및 운영진 활동"
     },
     {
       period: "2024.01 ~ 2024.12",
       title: "정보통신공학과 학생회장 직무대행 및 학생부회장",
-      description: "행사 기획·진행 및 학과 대내외 리스크·갈등 관리"
+      description: "행사 기획·진행 및 학과 대내외 리스크·이슈 관리"
     },
   ]
 
