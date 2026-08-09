@@ -1,7 +1,15 @@
-import { Award, Users } from "lucide-react"
+import { Award, Users, Briefcase } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
 export default function AchievementsSection() {
+  const careers = [
+    {
+      period: "2026.07 ~ 2026.08",
+      title: "IBK기업은행 청년인턴 (IT)",
+      company: "IBK기업은행",
+    }
+  ]
+
   const awards = [
     {
       date: "2026.03.25",
@@ -42,31 +50,59 @@ export default function AchievementsSection() {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-      {/* Awards */}
-      <Card className="shadow-xl border-0 bg-white/80 backdrop-blur-sm">
-        <CardContent className="p-6">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="bg-yellow-100 p-3 rounded-full">
-              <Award className="h-6 w-6 text-yellow-600" />
-            </div>
-            <h3 className="text-2xl font-bold text-gray-800">Awards</h3>
-          </div>
-          <div className="space-y-5">
-            {awards.map((award, index) => (
-              <div key={index} className="flex gap-4">
-                <div className="flex-shrink-0 w-20 text-sm font-semibold text-yellow-600 pt-1">
-                  {award.date}
-                </div>
-                <div className="flex-1 border-l-2 border-yellow-200 pl-4">
-                  <h4 className="font-semibold text-gray-800 mb-1">{award.title}</h4>
-                  <p className="text-xs text-gray-500 mb-1">{award.organizer}</p>
-                  <p className="text-sm text-yellow-600 font-medium">{award.award}</p>
-                </div>
+      {/* Left Column: Awards + Career */}
+      <div className="space-y-6">
+        {/* Awards */}
+        <Card className="shadow-xl border-0 bg-white/80 backdrop-blur-sm">
+          <CardContent className="p-6">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="bg-yellow-100 p-3 rounded-full">
+                <Award className="h-6 w-6 text-yellow-600" />
               </div>
-            ))}
-          </div>
-        </CardContent>
-      </Card>
+              <h3 className="text-2xl font-bold text-gray-800">Awards</h3>
+            </div>
+            <div className="space-y-4">
+              {awards.map((award, index) => (
+                <div key={index} className="flex gap-3">
+                  <div className="flex-shrink-0 w-20 text-xs font-semibold text-yellow-600 pt-1">
+                    {award.date}
+                  </div>
+                  <div className="flex-1 border-l-2 border-yellow-200 pl-3">
+                    <h4 className="font-semibold text-gray-800 text-sm mb-0.5">{award.title}</h4>
+                    <p className="text-xs text-gray-500 mb-0.5">{award.organizer}</p>
+                    <p className="text-sm text-yellow-600 font-medium">{award.award}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Career */}
+        <Card className="shadow-xl border-0 bg-white/80 backdrop-blur-sm">
+          <CardContent className="p-6">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="bg-green-100 p-3 rounded-full">
+                <Briefcase className="h-6 w-6 text-green-600" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-800">Career</h3>
+            </div>
+            <div className="space-y-4">
+              {careers.map((career, index) => (
+                <div key={index} className="flex gap-3">
+                  <div className="flex-shrink-0 w-28 text-xs font-semibold text-green-600 pt-1">
+                    {career.period}
+                  </div>
+                  <div className="flex-1 border-l-2 border-green-200 pl-3">
+                    <h4 className="font-semibold text-gray-800 text-sm mb-0.5">{career.title}</h4>
+                    <p className="text-xs text-gray-500">{career.company}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      </div>
 
       {/* Activities */}
       <Card className="shadow-xl border-0 bg-white/80 backdrop-blur-sm">
