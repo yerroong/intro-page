@@ -41,7 +41,7 @@ export default function AchievementsSection() {
     {
       period: "2025.08 ~ 2026.03",
       title: "LG U+ 유레카 3기 프론트엔드 과정 수료",
-      description: "IT 전반 및 FE 과정 수료 / 팀 프로젝트 3회 및 수상"
+      description: "IT·FE 전반 과정 수료 / 팀 프로젝트 3회 및 수상"
     },
     {
       period: "2025.06 ~ 2025.12",
@@ -51,7 +51,7 @@ export default function AchievementsSection() {
     {
       period: "2025.03 ~ 2025.08",
       title: "인하대 전기전자공학부 생성형AI 연구실 학부연구생",
-      description: "생성형 AI 논문 세미나 참여 및 Upstage 기반 정보 추출 서비스 개발"
+      description: "생성형 AI 논문 스터디 및 Upstage AI 서비스 수상"
     },
     {
       period: "2024.09 ~ 2024.12",
