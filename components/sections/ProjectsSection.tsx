@@ -239,9 +239,9 @@ export default function ProjectsSection() {
       case "importance":
         return sorted.sort((a, b) => a.importance - b.importance)
       case "newest":
-        return sorted.reverse()
+        return sorted.sort((a, b) => parseInt(b.year) - parseInt(a.year))
       case "oldest":
-        return sorted
+        return sorted.sort((a, b) => parseInt(a.year) - parseInt(b.year))
       default:
         return sorted
     }
