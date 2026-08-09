@@ -18,6 +18,7 @@ export default function ProjectsSection() {
     {
       title: "POOLI - LG U+ 가족 데이터 통합 관리 앱",
       year: "2026",
+      sortDate: "2026.03",
       importance: 0,
       role: "프론트엔드 / UI 구현 및 API 연동, Figma 설계",
       description: "LG U+ 유레카 3기 SW 최종융합프로젝트 최우수상 1등🏆️ - 가족 결합 사용자를 위한 실시간 데이터 통합 관리 및 스마트 제약 시스템",
@@ -44,6 +45,7 @@ export default function ProjectsSection() {
     {
       title: "쇼티 - 숏폼 영상 서비스",
       year: "2024",
+      sortDate: "2024.05",
       importance: 7,
       role: "프론트엔드 / 기획", 
       description: "프로메테우스 해커톤. 롱폼 영상을 숏폼으로 만들어주는 ai 사이트 (현재 비공개 상태)",
@@ -62,6 +64,7 @@ export default function ProjectsSection() {
     {
       title: "가스/화재 안전 통합 시스템",
       year: "2024",
+      sortDate: "2024.09",
       importance: 9,
       role: "프론트엔드 / 기획", 
       description: "인하대 이노씽크 메이커톤 본선에서 진행한 가스 및 화재 안전 관리를 위한 통합 안전 시스템 (with.임베디드)",
@@ -83,6 +86,7 @@ export default function ProjectsSection() {
     {
       title: "With - 사회적 고립청년 대상 서비스",
       year: "2024",
+      sortDate: "2024.08",
       importance: 8,
       role: "(팀장)프론트엔드 / 기획 / 디자인", 
       description: "멋쟁이사자처럼 중앙 해커톤에서 진행한 사회적 고립청년을 위한 커뮤니티 사이트",
@@ -103,6 +107,7 @@ export default function ProjectsSection() {
     {
       title: "Makourse - 메이코스",
       year: "2024",
+      sortDate: "2024.11",
       importance: 5,
       role: "프론트엔드", 
       description: "(서버 닫음) 일정 공유를 위한 앱 제작 팀 프로젝트 '메이코스'",
@@ -124,6 +129,7 @@ export default function ProjectsSection() {
     {
       title: "HackDoc",
       year: "2025",
+      sortDate: "2025.04",
       importance: 6,
       role: "프론트엔드", 
       description: "BUIDL AI 2025 Upstage 트랙 3등 수상🏆️",
@@ -141,6 +147,7 @@ export default function ProjectsSection() {
     {
       title: "[출시 완료] 인천시 외국인 근로자산재 보험 가이드 앱",
       year: "2025",
+      sortDate: "2025.06",
       importance: 1,
       role: "(개발팀장)프론트엔드 / 웹 배포", 
       description:
@@ -167,6 +174,7 @@ export default function ProjectsSection() {
     {
       title: "CookingLog - 쿠킹로그",
       year: "2025",
+      sortDate: "2025.10",
       importance: 3,
       role: "(팀장)프론트엔드 / 기획 / 디자인", 
       description: "LG U+ 유레카 3기 프론트엔드 부트캠프 팀프로젝트로 진행한 레시피 기록/공유, AI 챗봇 웹사이트  ",
@@ -187,6 +195,7 @@ export default function ProjectsSection() {
     {
       title: "다무너 - 실시간 상담 및 AI 기반 상담 요약 통신사 플랫폼",
       year: "2026",
+      sortDate: "2025.12",
       importance: 2,
       role: "(팀장) 프론트엔드 / 기획 / 디자인", 
       description: "LG U+ 유레카 부트캠프 프론트 3기 종합프로젝트로 진행한, 실시간 상담 및 AI 기반 상담 요약 통신사 플랫폼",
@@ -213,6 +222,7 @@ export default function ProjectsSection() {
     {
       title: "YAKKAN - 약관이 '약간' 이상할 때",
       year: "2026",
+      sortDate: "2026.01",
       importance: 4,
       role: "프론트엔드", 
       description: "ASCII-THON SW 서비스 개발트랙 장려상🏆️",
@@ -239,9 +249,9 @@ export default function ProjectsSection() {
       case "importance":
         return sorted.sort((a, b) => a.importance - b.importance)
       case "newest":
-        return sorted.sort((a, b) => parseInt(b.year) - parseInt(a.year))
+        return sorted.sort((a, b) => b.sortDate.localeCompare(a.sortDate))
       case "oldest":
-        return sorted.sort((a, b) => parseInt(a.year) - parseInt(b.year))
+        return sorted.sort((a, b) => a.sortDate.localeCompare(b.sortDate))
       default:
         return sorted
     }
