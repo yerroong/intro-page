@@ -42,7 +42,7 @@ export default function AchievementsSection() {
     { period: "2025.06 ~ 2025.12", content: "인천 외국인종합지원센터 '인천 외국인 산재보험 가이드' 앱 출시" },
     { period: "2025.03 ~ 2025.08", content: "인하대 전기전자공학부 생성형AI 연구실 학부연구생" },
     { period: "2024.09 ~ 2024.12", content: "인하대 전자공학과 CVIP Lab 학부연구생" },
-    { period: "2024.03 ~ 2025.12", content: "멋쟁이 사자처럼 12기 이수 / 13기 FE 운영진" },
+    { period: "2024.03 ~ 2025.12", content: "멋쟁이 사자처럼 12기 FE 이수 / 13기 FE 운영진" },
     { period: "2024.01 ~ 2024.12", content: "정보통신공학과 학생회장 직무대행 및 학생부회장" },
   ]
 
