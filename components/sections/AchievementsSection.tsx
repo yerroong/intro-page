@@ -31,7 +31,7 @@ export default function AchievementsSection() {
     },
     {
       date: "2025.03.25",
-      title: "AI 해커톤",
+      title: "인하대 AI 해커톤",
       organizer: "나눔엔젤스 × 인하대 블록체인센터",
       award: "우수상"
     }
@@ -67,8 +67,8 @@ export default function AchievementsSection() {
                     {award.date}
                   </div>
                   <div className="flex-1 border-l-2 border-yellow-200 pl-3">
-                    <h4 className="font-semibold text-gray-800 text-sm">
-                      {award.title} <span className="text-gray-400">|</span> <span className="text-xs font-normal text-gray-500">{award.organizer}</span>
+                    <h4 className="text-sm text-gray-800">
+                      <span className="font-semibold">{award.title}</span> <span className="text-gray-400">|</span> <span className="text-xs text-gray-500">{award.organizer}</span>
                     </h4>
                     <p className="text-sm text-yellow-600 font-medium">{award.award}</p>
                   </div>
