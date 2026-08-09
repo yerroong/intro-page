@@ -105,7 +105,7 @@ export default function ProjectsSection() {
       year: "2024",
       importance: 5,
       role: "프론트엔드", 
-      description: "(서버 닫음) 일정 공유를 위한 웹앱 제작 팀 프로젝트 '메이코스'",
+      description: "(서버 닫음) 일정 공유를 위한 앱 제작 팀 프로젝트 '메이코스'",
       detailedDescription:
         "출시를 목표로 3개월간 진행한 팀 프로젝트입니다(실제 출시 X, 현재 백엔드 서버 닫혀있음). 총 6명(프론트3, 백엔드2, 디자이너1)에서 진행했으며, 메이코스 서비스는 개인간의 계획성 약속의 확실함을 제공해주고자 합니다. 약속 날짜와 장소를 짜고 구성하는데에 불편함을 해결해주는 어플리케이션입니다. 서비스 이름은 make + course(일정 코스, 데이트 코스할 때의 코스)로 React를 활용하여 반응형 인터페이스를 구현했으며, 주요 기능은 일행과 같이 약속 계획 짜기가 가능하며 특정 장소 및 계획에 시간설정/메모/대안 설정이 가능합니다.",
       githubUrl: "https://github.com/orgs/Makourse/repositories",
@@ -139,7 +139,7 @@ export default function ProjectsSection() {
       color: "from-yellow-400 to-yellow-600",
     },
     {
-      title: "[출시 완료] 인천시 외국인 근로자산재 보험 가이드 웹앱",
+      title: "[출시 완료] 인천시 외국인 근로자산재 보험 가이드 앱",
       year: "2025",
       importance: 1,
       role: "(개발팀장)프론트엔드 / 웹 배포", 
