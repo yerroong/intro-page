@@ -61,15 +61,16 @@ export default function AchievementsSection() {
               </div>
               <h3 className="text-2xl font-bold text-gray-800">Awards</h3>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-3">
               {awards.map((award, index) => (
                 <div key={index} className="flex gap-3">
                   <div className="flex-shrink-0 w-20 text-xs font-semibold text-yellow-600 pt-1">
                     {award.date}
                   </div>
                   <div className="flex-1 border-l-2 border-yellow-200 pl-3">
-                    <h4 className="font-semibold text-gray-800 text-sm mb-0.5">{award.title}</h4>
-                    <p className="text-xs text-gray-500 mb-0.5">{award.organizer}</p>
+                    <h4 className="font-semibold text-gray-800 text-sm">
+                      {award.title} <span className="text-gray-400">|</span> <span className="text-xs font-normal text-gray-500">{award.organizer}</span>
+                    </h4>
                     <p className="text-sm text-yellow-600 font-medium">{award.award}</p>
                   </div>
                 </div>
