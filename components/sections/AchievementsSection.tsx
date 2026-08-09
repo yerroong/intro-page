@@ -45,8 +45,8 @@ export default function AchievementsSection() {
     },
     {
       period: "2025.06 ~ 2025.12",
-      title: "인천 외국인종합지원센터 '인천 외국인 산재보험 가이드' 앱 출시",
-      description: "개발팀장 / UI 구축 및 AWS 배포·출시"
+      title: "인천 외국인종합지원센터 '외국인 산재보험 가이드' 앱 출시",
+      description: "개발팀장 / UI 구축 및 AWS 배포·상용화 출시"
     },
     {
       period: "2025.03 ~ 2025.08",
@@ -60,7 +60,7 @@ export default function AchievementsSection() {
     },
     {
       period: "2024.03 ~ 2025.12",
-      title: "멋쟁이 사자처럼 12기 FE 이수 / 13기 FE 운영진",
+      title: "멋쟁이 사자처럼 12기 FE 이수 / 13기 운영진",
       description: "HTML/CSS·JS·React 커리큘럼 이수, 프로젝트 개발 및 운영진 활동"
     },
     {
