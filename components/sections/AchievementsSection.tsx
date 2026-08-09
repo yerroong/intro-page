@@ -61,7 +61,7 @@ export default function AchievementsSection() {
     {
       period: "2024.03 ~ 2025.12",
       title: "멋쟁이 사자처럼 12기 FE 이수 / 13기 FE 운영진",
-      description: "HTML/CSS·JS·React 커리큘럼 이수, FE 프로젝트 개발 및 운영진 활동"
+      description: "HTML/CSS·JS·React 커리큘럼 이수, 프로젝트 개발 및 운영진 활동"
     },
     {
       period: "2024.01 ~ 2024.12",
