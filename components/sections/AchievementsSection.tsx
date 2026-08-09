@@ -38,13 +38,12 @@ export default function AchievementsSection() {
   ]
 
   const activities = [
-    { period: "25.08~26.03", content: "LG U+ 유레카 3기 프론트엔드 과정 수료" },
-    { period: "25.06-25.12", content: "인천 외국인종합지원센터 '인천 외국인 산재보험 가이드' 앱 출시" },
-    { period: "25.03-25.08", content: "인하대 전기전자공학부 생성형AI 연구실 학부연구생" },
-    { period: "25.01-25.12", content: "멋쟁이 사자처럼 13기 FE 운영진" },
-    { period: "24.09-24.12", content: "인하대 전자공학과 CVIP Lab 학부연구생" },
-    { period: "24.03-24.12", content: "멋쟁이 사자처럼 12기 FE 커리큘럼 이수" },
-    { period: "24.01-24.12", content: "정보통신공학과 학생회장 직무대행 및 학생부회장" },
+    { period: "2025.08 ~ 2026.03", content: "LG U+ 유레카 3기 프론트엔드 과정 수료" },
+    { period: "2025.06 ~ 2025.12", content: "인천 외국인종합지원센터 '인천 외국인 산재보험 가이드' 앱 출시" },
+    { period: "2025.03 ~ 2025.08", content: "인하대 전기전자공학부 생성형AI 연구실 학부연구생" },
+    { period: "2024.09 ~ 2024.12", content: "인하대 전자공학과 CVIP Lab 학부연구생" },
+    { period: "2024.03 ~ 2025.12", content: "멋쟁이 사자처럼 12기 이수 / 13기 FE 운영진" },
+    { period: "2024.01 ~ 2024.12", content: "정보통신공학과 학생회장 직무대행 및 학생부회장" },
   ]
 
   return (
@@ -105,22 +104,22 @@ export default function AchievementsSection() {
       </div>
 
       {/* Activities */}
-      <Card className="shadow-xl border-0 bg-white/80 backdrop-blur-sm">
+      <Card className="shadow-xl border-0 bg-white/80 backdrop-blur-sm h-fit">
         <CardContent className="p-6">
-          <div className="flex items-center gap-3 mb-6">
+          <div className="flex items-center gap-3 mb-4">
             <div className="bg-blue-100 p-3 rounded-full">
               <Users className="h-6 w-6 text-blue-600" />
             </div>
             <h3 className="text-2xl font-bold text-gray-800">Activities</h3>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-3">
             {activities.map((activity, index) => (
-              <div key={index} className="flex gap-4">
-                <div className="flex-shrink-0 w-24 text-xs font-semibold text-blue-600 pt-1">
+              <div key={index} className="flex gap-3">
+                <div className="flex-shrink-0 w-32 text-xs font-semibold text-blue-600 pt-1">
                   {activity.period}
                 </div>
-                <div className="flex-1 border-l-2 border-blue-200 pl-4">
-                  <p className="text-sm text-gray-700 leading-relaxed">{activity.content}</p>
+                <div className="flex-1 border-l-2 border-blue-200 pl-3">
+                  <p className="text-sm text-gray-800 leading-relaxed">{activity.content}</p>
                 </div>
               </div>
             ))}
