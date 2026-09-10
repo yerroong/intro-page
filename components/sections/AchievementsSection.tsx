@@ -46,7 +46,7 @@ export default function AchievementsSection() {
     {
       period: "2025.06 ~ 2025.12",
       title: "인천 외국인종합지원센터 '외국인 산재보험 가이드' 앱 출시",
-      description: "개발팀장 / UI 구축 및 AWS 배포·상용화 출시"
+      description: "개발팀장 / UI 구축 및 AWS 배포·출시·상용화 "
     },
     {
       period: "2025.03 ~ 2025.08",

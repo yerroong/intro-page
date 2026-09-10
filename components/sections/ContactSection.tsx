@@ -16,7 +16,7 @@ export default function ContactSection() {
     {
       icon: <Mail className="h-6 w-6" />,
       label: "Email",
-      value: "wbflqldks90@inha.edu",
+      value: "wbflqldks90@naver.com",
       color: "bg-gradient-to-r from-blue-400 to-indigo-500",
       textColor: "text-white",
       clickable: false,

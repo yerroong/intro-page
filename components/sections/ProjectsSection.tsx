@@ -20,7 +20,7 @@ export default function ProjectsSection() {
       year: "2026",
       sortDate: "2026.03",
       importance: 0,
-      role: "프론트엔드 / UI 구현 및 API 연동, Figma 설계",
+      role: "프론트엔드 / 기획 / UI 설계 및 디자인",
       description: "LG U+ 유레카 3기 SW 최종융합프로젝트 최우수상 1등🏆️ - 가족 결합 사용자를 위한 실시간 데이터 통합 관리 및 스마트 제약 시스템",
       detailedDescription:
         "LG U+ 유레카에서 주어진 주제를 바탕으로 총 8명이 진행한 팀 프로젝트입니다. POOLI는 LG유플러스 가족 결합 상품 사용자를 위한 실시간 가족 데이터 통합 관리 및 스마트 제약 시스템으로, 가족 구성원별 데이터 사용량을 실시간으로 모니터링하고 앱별 사용량 제한·속도 제한·차단 정책을 설정할 수 있습니다. 공유 데이터풀 관리, 알림 발송, 문의 관리 등 관리자 기능도 함께 제공합니다.\n\nReact, TypeScript 기반으로 공유풀, 상세페이지, 설정, 문의, 어드민 페이지까지 전체 사용자 흐름을 고려한 UI를 개발하고, REST API 연동을 통해 데이터 흐름을 안정적으로 처리했습니다. Jira를 활용해 스프린트를 직접 설계하고, Figma를 기반으로 기획 의도를 반영한 UI를 구현했으며, GitHub 환경 세팅 및 브랜치 전략을 구성하여 협업 효율을 높였습니다. 코드 리뷰와 리팩토링을 통해 컴포넌트 구조를 개선하고 재사용성을 높였습니다.",
@@ -224,7 +224,7 @@ export default function ProjectsSection() {
       year: "2026",
       sortDate: "2026.01",
       importance: 4,
-      role: "프론트엔드", 
+      role: "프론트엔드 / 기획", 
       description: "ASCII-THON SW 서비스 개발트랙 장려상🏆️",
       detailedDescription:
         "ASCII-THON 해커톤에서 SW 서비스 개발 트랙 장려상을 수상한 프로젝트입니다. 복잡하고 어려운 약관을 쉽게 이해할 수 있도록 도와주는 서비스를 개발했습니다. 사용자가 약관을 업로드하면 AI가 분석하여 핵심 내용을 요약하고, 주의해야 할 부분을 하이라이트해주는 기능을 구현했습니다. React와 TypeScript를 활용하여 직관적인 UI/UX를 제공합니다.",
