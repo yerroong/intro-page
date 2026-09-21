@@ -175,7 +175,7 @@ export default function ProjectsSection() {
       title: "CookingLog - 쿠킹로그",
       year: "2025",
       sortDate: "2025.10",
-      importance: 3,
+      importance: 4,
       role: "(팀장)프론트엔드 / 기획 / 디자인", 
       description: "LG U+ 유레카 3기 프론트엔드 부트캠프 팀프로젝트로 진행한 레시피 기록/공유, AI 챗봇 웹사이트  ",
       detailedDescription:
@@ -223,7 +223,7 @@ export default function ProjectsSection() {
       title: "JJIN - 외국인 관광객을 위한 K-일상 체험 및 미션 인증 웹앱",
       year: "2026",
       sortDate: "2026.09",
-      importance: 4,
+      importance: 3,
       role: "프론트엔드 / 웹 배포 / 기획",
       description: "2026 한국관광데이터 활용 공모전 웹앱 개발 부문 프로젝트 - AI 기반 맞춤형 코스 추천 및 K-일상 체험 미션 인증 플랫폼",
       detailedDescription:
