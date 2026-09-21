@@ -46,7 +46,7 @@ export default function ProjectsSection() {
       title: "쇼티 - 숏폼 영상 서비스",
       year: "2024",
       sortDate: "2024.05",
-      importance: 7,
+      importance: 8,
       role: "프론트엔드 / 기획", 
       description: "프로메테우스 해커톤. 롱폼 영상을 숏폼으로 만들어주는 ai 사이트 (현재 비공개 상태)",
       detailedDescription:
@@ -65,7 +65,7 @@ export default function ProjectsSection() {
       title: "가스/화재 안전 통합 시스템",
       year: "2024",
       sortDate: "2024.09",
-      importance: 9,
+      importance: 10,
       role: "프론트엔드 / 기획", 
       description: "인하대 이노씽크 메이커톤 본선에서 진행한 가스 및 화재 안전 관리를 위한 통합 안전 시스템 (with.임베디드)",
       detailedDescription:
@@ -87,7 +87,7 @@ export default function ProjectsSection() {
       title: "With - 사회적 고립청년 대상 서비스",
       year: "2024",
       sortDate: "2024.08",
-      importance: 8,
+      importance: 9,
       role: "(팀장)프론트엔드 / 기획 / 디자인", 
       description: "멋쟁이사자처럼 중앙 해커톤에서 진행한 사회적 고립청년을 위한 커뮤니티 사이트",
       detailedDescription:
@@ -108,7 +108,7 @@ export default function ProjectsSection() {
       title: "Makourse - 메이코스",
       year: "2024",
       sortDate: "2024.11",
-      importance: 5,
+      importance: 6,
       role: "프론트엔드", 
       description: "(서버 닫음) 일정 공유를 위한 앱 제작 팀 프로젝트 '메이코스'",
       detailedDescription:
@@ -130,7 +130,7 @@ export default function ProjectsSection() {
       title: "HackDoc",
       year: "2025",
       sortDate: "2025.04",
-      importance: 6,
+      importance: 7,
       role: "프론트엔드", 
       description: "BUIDL AI 2025 Upstage 트랙 3등 수상🏆️",
       detailedDescription:
@@ -220,10 +220,35 @@ export default function ProjectsSection() {
       isImportant: true,
     },
     {
+      title: "JJIN - 외국인 관광객을 위한 K-일상 체험 및 미션 인증 웹앱",
+      year: "2026",
+      sortDate: "2026.09",
+      importance: 4,
+      role: "프론트엔드 / 웹 배포 / 기획",
+      description: "2026 한국관광데이터 활용 공모전 웹앱 개발 부문 프로젝트 - AI 기반 맞춤형 코스 추천 및 K-일상 체험 미션 인증 플랫폼",
+      detailedDescription:
+        "2026 한국관광데이터 활용 공모전(웹앱 개발 부문)으로 진행한 5명(프론트2, 백엔드2, 디자인1) 규모의 팀 프로젝트입니다. 최근 외국인 관광객이 유명 명소를 넘어 한국인의 일상과 로컬 문화를 경험하고자 하는 흐름에 맞춰, 관광 데이터를 활용해 취향과 체험 레벨에 따른 여행 코스와 '찐 K-일상 체험 미션'을 제공합니다. 동네 상권과 로컬 공간으로 관광 수요를 확산시키는 것을 목표로 기획되었습니다.프론트엔드 개발, 기획 및 Vercel을 활용한 웹 배포를 담당했습니다. 취향·체험 레벨 설정, AI 기반 하루 단위 일정 자동 생성, 일정 검색·편집·직접 관리 기능, 미션 탐색 및 일정 추가, 사진·후기 기반 미션 인증 및 피드 소통 플로우 전반의 UI/UX를 구현했습니다. Next.js와 TypeScript 기반의 안정적인 프론트엔드 architecture 구현 및 개발 생산성 증대에 기여했습니다.",
+      githubUrl: "https://github.com/Team-JJIN/JJIN-FE",
+      liveUrl: "https://jjin-wheat.vercel.app/ko",
+      image: "/jjin1.png",
+      images: [
+        "/JJIN1.png",
+        "/JJIN2.png",
+        "/JJIN3.png",
+        "/JJIN4.png",
+        "/JJIN5.png",
+
+      ],
+      technologies: ["Next.js", "TypeScript", "Vite", "Figma", "Vercel"],
+      color: "from-emerald-400 to-teal-600",
+      isMobileApp: true,
+      isImportant: true,
+    },
+    {
       title: "YAKKAN - 약관이 '약간' 이상할 때",
       year: "2026",
       sortDate: "2026.01",
-      importance: 4,
+      importance: 5,
       role: "프론트엔드 / 기획", 
       description: "ASCII-THON SW 서비스 개발트랙 장려상🏆️",
       detailedDescription:
