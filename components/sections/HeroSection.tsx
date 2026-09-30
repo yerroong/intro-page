@@ -9,7 +9,7 @@ export default function HeroSection() {
   const [displayText, setDisplayText] = useState("")
   const [showScrollIndicator, setShowScrollIndicator] = useState(true)
   const fullText =
-    "안녕하세요! 성장해가고 있는 개발자 김예린입니다. 프론트·서비스 기획을 중점으로 각종 프로젝트 및 해커톤을 진행하였으며 현재 LG U+ 유레카 부트캠프, IBK기업은행 it인턴을 통해 IT 인재로 성장하고 있습니다."
+    "안녕하세요! 성장해가고 있는 개발자 김예린입니다. 플랫폼 개발·서비스 기획을 중점으로 각종 프로젝트 및 해커톤을 진행하였으며 현재 LG U+ 유레카 부트캠프, IBK기업은행 IT인턴을 통해 IT인재로 성장하고 있습니다."
 
   useEffect(() => {
     let index = 0
