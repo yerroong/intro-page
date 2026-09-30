@@ -197,7 +197,7 @@ export default function ProjectsSection() {
       year: "2026",
       sortDate: "2025.12",
       importance: 2,
-      role: "(팀장) 프론트엔드 / 기획 / 디자인", 
+      role: "(팀장) 프론트·백엔드 / 기획 / 디자인", 
       description: "LG U+ 유레카 부트캠프 프론트 3기 종합프로젝트로 진행한, 실시간 상담 및 AI 기반 상담 요약 통신사 플랫폼",
       detailedDescription:
         "LG U+ 유레카 부트캠프 프론트엔드 3기 종합 프로젝트입니다. 실시간 상담 기능과 AI 기반 상담 요약 기능을 제공하는 통신사 플랫폼을 개발했습니다. 사용자는 실시간으로 상담원과 채팅할 수 있으며, AI가 상담 내용을 자동으로 요약해주는 기능을 구현했습니다. React와 TypeScript를 활용하여 개발했으며, 실시간 통신을 위해 WebSocket을 활용했습니다.",
@@ -214,7 +214,7 @@ export default function ProjectsSection() {
         "/damoono4.png",
         "/damoono5.png",
       ],
-      technologies: ["React", "TypeScript", "WebSocket", "OpenAI"],
+      technologies: ["React", "TypeScript", "WebSocket", "OpenAI", "Node.js"],
       color: "from-green-400 to-green-600",
       isMobileApp: true,
       isImportant: true,
@@ -224,7 +224,7 @@ export default function ProjectsSection() {
       year: "2026",
       sortDate: "2026.09",
       importance: 3,
-      role: "프론트엔드 / 웹 배포 / 기획",
+      role: "프론트엔드 및 배포 / 기획",
       description: "2026 한국관광데이터 활용 공모전 웹앱 개발 부문 프로젝트 - AI 기반 맞춤형 코스 추천 및 K-일상 체험 미션 인증 플랫폼",
       detailedDescription:
         "2026 한국관광데이터 활용 공모전(웹앱 개발 부문)으로 진행한 5명(프론트2, 백엔드2, 디자인1) 규모의 팀 프로젝트입니다. 최근 외국인 관광객이 유명 명소를 넘어 한국인의 일상과 로컬 문화를 경험하고자 하는 흐름에 맞춰, 관광 데이터를 활용해 취향과 체험 레벨에 따른 여행 코스와 '찐 K-일상 체험 미션'을 제공합니다. 프론트엔드 개발, 기획 및 Vercel을 활용한 웹 배포를 담당했습니다. 취향·체험 레벨 설정, AI 기반 하루 단위 일정 자동 생성, 일정 검색·편집·직접 관리 기능, 미션 탐색 및 일정 추가, 사진·후기 기반 미션 인증 및 피드 소통 플로우 전반의 UI/UX를 구현했습니다. Next.js와 TypeScript 기반의 안정적인 프론트엔드 아키텍처 구현 및 개발 생산성 증대에 기여했습니다.",

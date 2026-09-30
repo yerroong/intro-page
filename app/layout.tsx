@@ -6,8 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "예린's introduction",
-  description: "React 중심의 프론트엔드 개발자 김예린의 포트폴리오 웹사이트입니다.",
+  title: "예린's 포트폴리오",
+  description: "개발자 김예린의 포트폴리오 웹사이트입니다.",
   icons: {
     icon: "/logo.png",
   },
