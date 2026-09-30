@@ -156,7 +156,7 @@ export default function ProjectsSection() {
         "인하대학교 지역상생 아이디어 후속 프로젝트인 '인솔루션 프로젝트'입니다. 지역상생 아이디어 총장상을 받은 아이디어를 현실화하는 작업입니다. 예산을 지원받아 인천시 외국인 종합지원센터를 주체로 진행하며 총 7명(기획 2, 프론트 2, 백엔드 2, 디자인 1)의 인하대 학생이 함께하며, 최종적으로 <With IN> 인천 외국인 근로자 전용 산재 보험 가이드라인 앱을 개발하여 외국인이 산재 보험을 편리하게 신청할 수 있도록 하는 것을 목표로 합니다. 5~8월 기획 및 예산 선정 과정과 9~12월 개발 및 베타테스트를 거쳐 현재 출시되었습니다.",
       url:  "https://github.com/WithIN-Incheon/WithIN-FE",
       githubUrl: "https://github.com/WithIN-Incheon/WithIN-FE",
-      liveUrl: "https://www.iscfr-iaga.com/",
+      liveUrl: "https://with-in.netlify.app/",
       image: "/within4.jpg",
       images: [
         "/within1.png",
