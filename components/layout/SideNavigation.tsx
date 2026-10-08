@@ -7,8 +7,8 @@ import { useActiveSection } from "@/hooks/use-active-section"
 const menuItems = [
   { name: "About",          href: "#about",           id: "about"          },
   { name: "Certifications", href: "#certifications",  id: "certifications" },
-  { name: "Projects",       href: "#projects",        id: "projects"       },
   { name: "Awards",         href: "#awards",          id: "awards"         },
+  { name: "Projects",       href: "#projects",        id: "projects"       },
 ] as const
 
 export default function SideNavigation() {

@@ -9,8 +9,8 @@ import { useActiveSection } from "@/hooks/use-active-section"
 const menuItems = [
   { name: "기술",      href: "#about",          id: "about"          },
   { name: "경력",      href: "#certifications", id: "certifications" },
-  { name: "프로젝트",  href: "#projects",       id: "projects"       },
   { name: "활동",      href: "#awards",         id: "awards"         },
+  { name: "프로젝트",  href: "#projects",       id: "projects"       },
 ] as const
 
 export default function Navigation() {

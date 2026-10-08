@@ -46,14 +46,14 @@ export default function Home() {
           <Certifications />
         </section>
 
-        <section id="projects" className="py-12 sm:py-16">
-          <SectionHeader title="Projects" />
-          <ProjectsSection />
-        </section>
-
         <section id="awards" className="py-12 sm:py-16">
           <SectionHeader title="Awards & Activities" />
           <AchievementsSection />
+        </section>
+
+        <section id="projects" className="py-12 sm:py-16">
+          <SectionHeader title="Projects" />
+          <ProjectsSection />
         </section>
       </main>
 
