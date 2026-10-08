@@ -9,9 +9,9 @@ export default function Certifications() {
       date: "25.03.21",
     },
     {
-      name: "OPIc 영어 IM1(Intermediate Mid)",
-      issuer: "ACTFL",
-      date: "26.03.14",
+      name: "토익스피킹(TOEIC Speaking) IM2",
+      issuer: "한국TOEIC위원회",
+      date: "26.10.04",
     },
   ]
 
