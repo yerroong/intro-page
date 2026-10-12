@@ -13,7 +13,7 @@ export default function AboutSection() {
     frontend: ["React", "Next.js", "TypeScript", "JavaScript", "HTML/CSS", "Tailwind CSS", "Styled-components", "Zustand"],
     backend: ["Node.js", "Express", "MySQL"],
     deployment: ["AWS S3", "AWS CloudFront", "Vercel"],
-    tools: ["Git", "C++", "SQL", "Vite"],
+    tools: ["Git", "C++", "Vite", "Python", "Pytorch"],
     collaboration: ["GitHub", "Slack", "Jira", "Notion", "Figma"],
     office: ["한글", "Word", "PowerPoint"],
   }
@@ -30,7 +30,7 @@ export default function AboutSection() {
                 </span>
                 로 성장하고 있습니다.
                 <br />
-                프론트엔드는 그 출발점이며, 해커톤·프로젝트·대외활동을 통해 기획, 구현, 협업, 개선의 전 과정을 경험하고 있습니다.
+                웹 개발은 그 출발점이며, 해커톤·프로젝트·대외활동을 통해 기획, 구현, 협업, AI 활용 및 개선의 전 과정을 경험하고 있습니다.
                 <br />
                 <span className="font-semibold text-gray-600">
                   (멋쟁이사자처럼, AI/CV 학부연구생, LG U+ 유레카, IBK 기업은행 it인턴 등)
@@ -159,10 +159,10 @@ export default function AboutSection() {
             {/* Left content */}
             <div className="flex-1 text-center lg:text-left">
               <p className="text-base leading-relaxed text-gray-700">
-                <span className="font-semibold text-blue-500">서비스의 기능과 품질을 함께 고민하는 IT 인재 김예린입니다!</span>
+                <span className="font-semibold text-blue-500">서비스의 기능과 품질을 함께 고민하는 SW 개발자 김예린입니다!</span>
                 <br />
-                프론트엔드를 중심으로 데이터베이스, 컴퓨터비전, AI 등
-                IT 전반에 관심을 가지고 학부 연구생 활동과 IBK기업은행 인턴까지
+                웹 개발 및 기획, 데이터베이스, 컴퓨터비전, AI 등
+                IT 전반에 관심을 가지고 AI 학부 연구생 활동과 IBK기업은행 인턴까지
                 다양한 프로젝트를 통해 폭넓은 경험을 쌓아왔습니다. 👊
               </p>
             </div>
