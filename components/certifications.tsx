@@ -9,9 +9,9 @@ export default function Certifications() {
       date: "25.03.21",
     },
     {
-      name: "토익스피킹(TOEIC Speaking) IM2",
+      name: "토익스피킹(TOEIC Speaking) IM3",
       issuer: "한국TOEIC위원회",
-      date: "26.10.04",
+      date: "26.10.31",
     },
   ]
 
