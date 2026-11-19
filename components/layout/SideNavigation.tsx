@@ -6,7 +6,7 @@ import { useActiveSection } from "@/hooks/use-active-section"
 
 const menuItems = [
   { name: "About",          href: "#about",           id: "about"          },
-  { name: "Certifications", href: "#certifications",  id: "certifications" },
+  { name: "자격증/어학", href: "#certifications",  id: "certifications" },
   { name: "Awards",         href: "#awards",          id: "awards"         },
   { name: "Projects",       href: "#projects",        id: "projects"       },
 ] as const

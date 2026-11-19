@@ -42,7 +42,7 @@ export default function Home() {
         </section>
 
         <section id="certifications" className="py-12 sm:py-16">
-          <SectionHeader title="Certifications" />
+          <SectionHeader title="Certifications & Language" />
           <Certifications />
         </section>
 

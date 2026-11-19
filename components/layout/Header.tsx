@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 
 const menuItems = [
   { name: "About",          href: "#about"          },
-  { name: "Certifications", href: "#certifications" },
+  { name: "자격증/어학", href: "#certifications" },
   { name: "Awards",         href: "#awards"         },
   { name: "Projects",       href: "#projects"       },
 ] as const
